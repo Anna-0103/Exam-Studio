@@ -1,0 +1,4096 @@
+{
+  "version": "2026.10.20.2",
+  "datasets": {
+    "film": {
+      "label": "NYC film permits",
+      "file": "NYC_Film_Permits.txt",
+      "download_name": "NYC_Film_Permits.txt",
+      "source": "1. Excel Part 1/PWC Excel Assignment/NYC_Film_Permits.txt",
+      "sha256": "a3dfd5debb1f26a3ed25dcabbeb41908b663ad4005f94782f677b97d310434cc",
+      "compressed": false,
+      "structure": {
+        "delimiter": ",",
+        "columns": [
+          "EventID",
+          "EventType",
+          "StartDateTime",
+          "EndDateTime",
+          "EnteredOn",
+          "EventAgency",
+          "ParkingHeld",
+          "Borough",
+          "CommunityBoard(s)",
+          "PolicePrecinct(s)",
+          "Category",
+          "SubCategoryName",
+          "Country",
+          "ZipCode"
+        ]
+      }
+    },
+    "plant": {
+      "label": "Messy employee codes",
+      "file": "Analytics_mindset_case_studies_ETL_Case3_Excel.xlsx",
+      "download_name": "Analytics_mindset_case_studies_ETL_Case3_Excel.xlsx",
+      "source": "1. Excel part 2/ETL Assignment/data/case 3/Analytics_mindset_case_studies_ETL_Case3_Excel.xlsx",
+      "sha256": "ecd870566d30223332dc98f90c4ebbec4e9d812056ee8c38a24c6c0e97bbd47f",
+      "compressed": false,
+      "structure": {
+        "Case 3 data": [
+          "EmployeeCode",
+          "FirstName",
+          "LastName"
+        ],
+        "Case 3 solution": [
+          "Unnamed: 0",
+          "Unnamed: 1",
+          "Unnamed: 2",
+          "Solution using formulas",
+          "Unnamed: 4",
+          "Unnamed: 5",
+          "Unnamed: 6",
+          "Unnamed: 7",
+          "Unnamed: 8",
+          "Solution using FlashFill"
+        ]
+      }
+    },
+    "journal": {
+      "label": "Journal entries and reference tables",
+      "file": "Analytics_mindset_case_studies_ETL_Case4_Excel.xlsx",
+      "download_name": "Analytics_mindset_case_studies_ETL_Case4_Excel.xlsx",
+      "source": "1. Excel part 2/ETL Assignment/data/case 4/Analytics_mindset_case_studies_ETL_Case4_Excel.xlsx",
+      "sha256": "5ff18c7ea3260e6a24b60293c2580d0a284c392982c60bb415f32636ee69c17e",
+      "compressed": false,
+      "structure": {
+        "JELineItems": [
+          "JENumber",
+          "GLAccountNumber",
+          "BusinessUnitID",
+          "PreparerID",
+          "SourceID",
+          "EffectiveDate",
+          "JEDescription",
+          "Debit",
+          "Credit",
+          "Amount"
+        ],
+        "BusinessUnits": [
+          "BusinessUnitID",
+          "BusinessUnit",
+          "BUDescription"
+        ],
+        "ChartOfAccounts": [
+          "GLAccountName",
+          "GLAccountNumber",
+          "AccountType",
+          "AccountClass"
+        ],
+        "PreparerInfo": [
+          "PreparerName",
+          "PreparerID",
+          "BusinessUnitID"
+        ],
+        "Source": [
+          "SourceID",
+          "Source"
+        ],
+        "Case 4 solution": [
+          "JENumber",
+          "GLAccountNumber",
+          "BusinessUnitID",
+          "PreparerID",
+          "SourceID",
+          "EffectiveDate",
+          "JEDescription",
+          "Debit",
+          "Credit",
+          "Amount",
+          "BusinessUnit",
+          "BUDescription",
+          "GLAccountName",
+          "AccountType",
+          "AccountClass",
+          "PreparerName",
+          "Source"
+        ]
+      }
+    },
+    "pay15": {
+      "label": "IntegrateCo 2015 payroll",
+      "file": "Analytics_mindset_case_studies_IntegrateCo_2015payroll.csv",
+      "download_name": "Analytics_mindset_case_studies_IntegrateCo_2015payroll.csv",
+      "source": "1. Excel part 3/IntegrateCo Assignment/Analytics_mindset_case_studies_IntegrateCo_2015payroll.csv",
+      "sha256": "0f453f855d35073592bdfa00c7cb5f054d36f9362ad80624a7eb6d9b7f35ff29",
+      "compressed": false,
+      "structure": {
+        "delimiter": "|",
+        "columns": [
+          "Pay_Date",
+          "Payroll_ID",
+          "Emp_No",
+          "Home_Div",
+          "Work_Div",
+          "First_Name",
+          "Last_Name",
+          "Job",
+          "Reg_Hrs",
+          "OT_Hrs",
+          "Reg_Pay",
+          "OT_Pay",
+          "Futa",
+          "Suta",
+          "Fica_Medc",
+          "Work_Comp"
+        ]
+      }
+    },
+    "pay16": {
+      "label": "IntegrateCo 2016 payroll",
+      "file": "Analytics_mindset_case_studies_IntegrateCo_2016payroll.csv",
+      "download_name": "Analytics_mindset_case_studies_IntegrateCo_2016payroll.csv",
+      "source": "1. Excel part 3/IntegrateCo Assignment/Analytics_mindset_case_studies_IntegrateCo_2016payroll.csv",
+      "sha256": "f8f82e0ceff6709d7f21f12793fca30028d02d0a51ad394567093104a1b7b982",
+      "compressed": false,
+      "structure": {
+        "delimiter": "|",
+        "columns": [
+          "Project",
+          "Employee_ID",
+          "Employee_Number",
+          "Employee_Name",
+          "Hours",
+          "OT_Hours",
+          "Gross_Wages",
+          "SocSec_Medicare",
+          "FUTA",
+          "SUTA",
+          "Work_Comp"
+        ]
+      }
+    },
+    "jobs": {
+      "label": "IntegrateCo job-code dictionary",
+      "file": "Analytics_mindset_case_studies_IntegrateCo_jobcodes.csv",
+      "download_name": "Analytics_mindset_case_studies_IntegrateCo_jobcodes.csv",
+      "source": "1. Excel part 3/IntegrateCo Assignment/Analytics_mindset_case_studies_IntegrateCo_jobcodes.csv",
+      "sha256": "f2b3ace92cfb7009209bbafb78d61febf9f6e2c275987f41a6ab2e42995ba256",
+      "compressed": false,
+      "structure": {
+        "delimiter": "|",
+        "columns": [
+          "Job_Code",
+          "Job_Description"
+        ]
+      }
+    },
+    "songs": {
+      "label": "Songs database",
+      "file": "songs.db",
+      "download_name": "songs.db",
+      "source": "2. SQL part 1/Assignments/cs50 assignment/songs/songs.db",
+      "sha256": "ff1a63702252faedd3fe37c41a42b70e54987d3fc00fc061065da5cda02dfe9b",
+      "compressed": false,
+      "structure": {
+        "songs": [
+          {
+            "column": "id",
+            "type": "INTEGER"
+          },
+          {
+            "column": "name",
+            "type": "TEXT"
+          },
+          {
+            "column": "artist_id",
+            "type": "INTEGER"
+          },
+          {
+            "column": "danceability",
+            "type": "REAL"
+          },
+          {
+            "column": "energy",
+            "type": "REAL"
+          },
+          {
+            "column": "key",
+            "type": "INTEGER"
+          },
+          {
+            "column": "loudness",
+            "type": "REAL"
+          },
+          {
+            "column": "speechiness",
+            "type": "REAL"
+          },
+          {
+            "column": "valence",
+            "type": "REAL"
+          },
+          {
+            "column": "tempo",
+            "type": "REAL"
+          },
+          {
+            "column": "duration_ms",
+            "type": "INTEGER"
+          }
+        ],
+        "artists": [
+          {
+            "column": "id",
+            "type": "INTEGER"
+          },
+          {
+            "column": "name",
+            "type": "TEXT"
+          }
+        ]
+      }
+    },
+    "chinook": {
+      "label": "Chinook database",
+      "file": "Chinook_Sqlite.sqlite",
+      "download_name": "Chinook_Sqlite.sqlite",
+      "source": "2. SQL part 1/Assignments/pwc assignment/Chinook_Sqlite.sqlite",
+      "sha256": "bdf635be69850bd3be09c9a2dbeef7ddfb80036bd3ef3381383cd03b61e4a61a",
+      "compressed": false,
+      "structure": {
+        "Album": [
+          {
+            "column": "AlbumId",
+            "type": "INTEGER"
+          },
+          {
+            "column": "Title",
+            "type": "NVARCHAR(160)"
+          },
+          {
+            "column": "ArtistId",
+            "type": "INTEGER"
+          }
+        ],
+        "Artist": [
+          {
+            "column": "ArtistId",
+            "type": "INTEGER"
+          },
+          {
+            "column": "Name",
+            "type": "NVARCHAR(120)"
+          }
+        ],
+        "Customer": [
+          {
+            "column": "CustomerId",
+            "type": "INTEGER"
+          },
+          {
+            "column": "FirstName",
+            "type": "NVARCHAR(40)"
+          },
+          {
+            "column": "LastName",
+            "type": "NVARCHAR(20)"
+          },
+          {
+            "column": "Company",
+            "type": "NVARCHAR(80)"
+          },
+          {
+            "column": "Address",
+            "type": "NVARCHAR(70)"
+          },
+          {
+            "column": "City",
+            "type": "NVARCHAR(40)"
+          },
+          {
+            "column": "State",
+            "type": "NVARCHAR(40)"
+          },
+          {
+            "column": "Country",
+            "type": "NVARCHAR(40)"
+          },
+          {
+            "column": "PostalCode",
+            "type": "NVARCHAR(10)"
+          },
+          {
+            "column": "Phone",
+            "type": "NVARCHAR(24)"
+          },
+          {
+            "column": "Fax",
+            "type": "NVARCHAR(24)"
+          },
+          {
+            "column": "Email",
+            "type": "NVARCHAR(60)"
+          },
+          {
+            "column": "SupportRepId",
+            "type": "INTEGER"
+          }
+        ],
+        "Employee": [
+          {
+            "column": "EmployeeId",
+            "type": "INTEGER"
+          },
+          {
+            "column": "LastName",
+            "type": "NVARCHAR(20)"
+          },
+          {
+            "column": "FirstName",
+            "type": "NVARCHAR(20)"
+          },
+          {
+            "column": "Title",
+            "type": "NVARCHAR(30)"
+          },
+          {
+            "column": "ReportsTo",
+            "type": "INTEGER"
+          },
+          {
+            "column": "BirthDate",
+            "type": "DATETIME"
+          },
+          {
+            "column": "HireDate",
+            "type": "DATETIME"
+          },
+          {
+            "column": "Address",
+            "type": "NVARCHAR(70)"
+          },
+          {
+            "column": "City",
+            "type": "NVARCHAR(40)"
+          },
+          {
+            "column": "State",
+            "type": "NVARCHAR(40)"
+          },
+          {
+            "column": "Country",
+            "type": "NVARCHAR(40)"
+          },
+          {
+            "column": "PostalCode",
+            "type": "NVARCHAR(10)"
+          },
+          {
+            "column": "Phone",
+            "type": "NVARCHAR(24)"
+          },
+          {
+            "column": "Fax",
+            "type": "NVARCHAR(24)"
+          },
+          {
+            "column": "Email",
+            "type": "NVARCHAR(60)"
+          }
+        ],
+        "Genre": [
+          {
+            "column": "GenreId",
+            "type": "INTEGER"
+          },
+          {
+            "column": "Name",
+            "type": "NVARCHAR(120)"
+          }
+        ],
+        "Invoice": [
+          {
+            "column": "InvoiceId",
+            "type": "INTEGER"
+          },
+          {
+            "column": "CustomerId",
+            "type": "INTEGER"
+          },
+          {
+            "column": "InvoiceDate",
+            "type": "DATETIME"
+          },
+          {
+            "column": "BillingAddress",
+            "type": "NVARCHAR(70)"
+          },
+          {
+            "column": "BillingCity",
+            "type": "NVARCHAR(40)"
+          },
+          {
+            "column": "BillingState",
+            "type": "NVARCHAR(40)"
+          },
+          {
+            "column": "BillingCountry",
+            "type": "NVARCHAR(40)"
+          },
+          {
+            "column": "BillingPostalCode",
+            "type": "NVARCHAR(10)"
+          },
+          {
+            "column": "Total",
+            "type": "NUMERIC(10,2)"
+          }
+        ],
+        "InvoiceLine": [
+          {
+            "column": "InvoiceLineId",
+            "type": "INTEGER"
+          },
+          {
+            "column": "InvoiceId",
+            "type": "INTEGER"
+          },
+          {
+            "column": "TrackId",
+            "type": "INTEGER"
+          },
+          {
+            "column": "UnitPrice",
+            "type": "NUMERIC(10,2)"
+          },
+          {
+            "column": "Quantity",
+            "type": "INTEGER"
+          }
+        ],
+        "MediaType": [
+          {
+            "column": "MediaTypeId",
+            "type": "INTEGER"
+          },
+          {
+            "column": "Name",
+            "type": "NVARCHAR(120)"
+          }
+        ],
+        "Playlist": [
+          {
+            "column": "PlaylistId",
+            "type": "INTEGER"
+          },
+          {
+            "column": "Name",
+            "type": "NVARCHAR(120)"
+          }
+        ],
+        "PlaylistTrack": [
+          {
+            "column": "PlaylistId",
+            "type": "INTEGER"
+          },
+          {
+            "column": "TrackId",
+            "type": "INTEGER"
+          }
+        ],
+        "Track": [
+          {
+            "column": "TrackId",
+            "type": "INTEGER"
+          },
+          {
+            "column": "Name",
+            "type": "NVARCHAR(200)"
+          },
+          {
+            "column": "AlbumId",
+            "type": "INTEGER"
+          },
+          {
+            "column": "MediaTypeId",
+            "type": "INTEGER"
+          },
+          {
+            "column": "GenreId",
+            "type": "INTEGER"
+          },
+          {
+            "column": "Composer",
+            "type": "NVARCHAR(220)"
+          },
+          {
+            "column": "Milliseconds",
+            "type": "INTEGER"
+          },
+          {
+            "column": "Bytes",
+            "type": "INTEGER"
+          },
+          {
+            "column": "UnitPrice",
+            "type": "NUMERIC(10,2)"
+          }
+        ]
+      }
+    },
+    "movies": {
+      "label": "Movies database",
+      "file": "movies.db.gz",
+      "download_name": "movies.db",
+      "source": "2. SQL part 1/Assignments/cs50 assignment/movies/movies.db",
+      "sha256": "c823e55885d3c1d173611d22947b9e3217dcc747480a3ab9299311e31e288566",
+      "compressed": true,
+      "structure": {
+        "movies": [
+          {
+            "column": "id",
+            "type": "INTEGER"
+          },
+          {
+            "column": "title",
+            "type": "TEXT"
+          },
+          {
+            "column": "year",
+            "type": "NUMERIC"
+          }
+        ],
+        "stars": [
+          {
+            "column": "movie_id",
+            "type": "INTEGER"
+          },
+          {
+            "column": "person_id",
+            "type": "INTEGER"
+          }
+        ],
+        "directors": [
+          {
+            "column": "movie_id",
+            "type": "INTEGER"
+          },
+          {
+            "column": "person_id",
+            "type": "INTEGER"
+          }
+        ],
+        "ratings": [
+          {
+            "column": "movie_id",
+            "type": "INTEGER"
+          },
+          {
+            "column": "rating",
+            "type": "REAL"
+          },
+          {
+            "column": "votes",
+            "type": "INTEGER"
+          }
+        ],
+        "people": [
+          {
+            "column": "id",
+            "type": "INTEGER"
+          },
+          {
+            "column": "name",
+            "type": "TEXT"
+          },
+          {
+            "column": "birth",
+            "type": "NUMERIC"
+          }
+        ]
+      }
+    },
+    "pcards": {
+      "label": "P-cards · OSU 2014 subset",
+      "file": "pcards_osu_2014.db",
+      "download_name": "pcards_osu_2014.db",
+      "source": "2. SQL part 2/Pcards Assignment/pcards.db",
+      "sha256": "3dd2cd08743ce41f3c1bdd98d372c3e3dc19fd3ca09dc5f1c17a4d17d54de258",
+      "compressed": false,
+      "note": "Derived from the supplied pcards.db: Year = 2014 and AgencyName = 'OKLAHOMA STATE UNIVERSITY'. 116,031 rows; all source columns retained. Answers apply to this subset only.",
+      "structure": {
+        "pcards": [
+          {
+            "column": "Year",
+            "type": "INTEGER"
+          },
+          {
+            "column": "Month",
+            "type": "INTEGER"
+          },
+          {
+            "column": "FullName",
+            "type": "TEXT"
+          },
+          {
+            "column": "ID",
+            "type": "INTEGER"
+          },
+          {
+            "column": "AgencyNumber",
+            "type": "INTEGER"
+          },
+          {
+            "column": "AgencyName",
+            "type": "TEXT"
+          },
+          {
+            "column": "CardholderLastName",
+            "type": "TEXT"
+          },
+          {
+            "column": "CardholderFirstInitial",
+            "type": "TEXT"
+          },
+          {
+            "column": "Description",
+            "type": "TEXT"
+          },
+          {
+            "column": "Amount",
+            "type": "REAL"
+          },
+          {
+            "column": "Vendor",
+            "type": "TEXT"
+          },
+          {
+            "column": "TransactionDate",
+            "type": "TEXT"
+          },
+          {
+            "column": "PostedDate",
+            "type": "TEXT"
+          },
+          {
+            "column": "MCC",
+            "type": "TEXT"
+          }
+        ]
+      }
+    },
+    "restaurant": {
+      "label": "Restaurant sales, weather and games",
+      "file": "data.xlsm",
+      "download_name": "data.xlsm",
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/data.xlsm",
+      "sha256": "52770bbc5d89b323cabf09d4438d3e9c3cc0563186ce835e14c91007d9cab078",
+      "compressed": false,
+      "structure": {
+        "salesData": [
+          "date",
+          "LineItem",
+          "quantity",
+          "price",
+          "discounts",
+          "netTotal",
+          "purchaseNumber",
+          "daysSinceLastPurch",
+          "quantity_364",
+          "price_364",
+          "discounts_364",
+          "netTotal_364",
+          "quantity_28",
+          "price_28",
+          "discounts_28",
+          "netTotal_28",
+          "quantity_7",
+          "price_7",
+          "discounts_7",
+          "netTotal_7"
+        ],
+        "salesDataDictionary": [
+          "Description"
+        ],
+        "weatherData": [
+          "date",
+          "prcp",
+          "snow",
+          "tmax",
+          "tmin"
+        ],
+        "weatherDataDictionary": [
+          "Description"
+        ],
+        "gameData": [
+          "date",
+          "homeGame",
+          "winRecord",
+          "pointDiff",
+          "gameDay"
+        ],
+        "gameDataDictionary": [
+          "Description"
+        ]
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "X01",
+      "title": "Know your dataset",
+      "prompt": "How many data records are in the NYC film-permits file? Exclude the header.",
+      "subject": "Excel",
+      "skill": "Data profiling",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · Q1",
+      "kind": "number",
+      "answer": 33502,
+      "hint": "Exclude the header; count records rather than populated ZIP codes.",
+      "solution": "There are 33,502 records. Count a fully populated identifier, or use the number of data rows.",
+      "tolerance": 0
+    },
+    {
+      "id": "X02",
+      "title": "Missing ZIP codes",
+      "prompt": "How many records have a missing ZipCode? Use all event types.",
+      "subject": "Excel",
+      "skill": "Missing values",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · Q3",
+      "kind": "number",
+      "answer": 11,
+      "hint": "Count empty ZipCode cells across all events, without discarding rows.",
+      "solution": "Count blanks in ZipCode: 11. Missing and invalid values are different checks.",
+      "tolerance": 0
+    },
+    {
+      "id": "X03",
+      "title": "Summarise event types",
+      "prompt": "Show the count of each EventType. Paste a two-column table headed EventType and Count; any row order is accepted.",
+      "subject": "Excel",
+      "skill": "Pivot tables",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · Q8–9",
+      "kind": "table",
+      "answer": [
+        [
+          "DCAS Prep/Shoot/Wrap Permit",
+          362
+        ],
+        [
+          "Rigging Permit",
+          1026
+        ],
+        [
+          "Shooting Permit",
+          28680
+        ],
+        [
+          "Theater Load in and Load Outs",
+          3434
+        ]
+      ],
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Create a pivot table with EventType in Rows and a count of EventID in Values. Include every event type.",
+      "columns": [
+        "EventType",
+        "Count"
+      ]
+    },
+    {
+      "id": "X04",
+      "title": "Permit duration",
+      "prompt": "Find the average duration of a Shooting Permit, in hours. Round to the nearest half-hour and enter a number.",
+      "subject": "Excel",
+      "skill": "Date arithmetic",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · Q16",
+      "kind": "number",
+      "answer": 17.0,
+      "hint": "Subtract start from end, multiply Excel date differences by 24, average shooting permits only, then round.",
+      "solution": "Mean duration before rounding is 16.981659 hours; the nearest half-hour is 17.0.",
+      "tolerance": 0.001,
+      "diagnostics": [
+        {
+          "value": 0.71,
+          "message": "This resembles a duration in days. Excel date subtraction returns days; convert to hours before rounding."
+        }
+      ]
+    },
+    {
+      "id": "X05",
+      "title": "Decode variable-length identifiers",
+      "prompt": "For the first five employees on 'Case 3 data', extract the fields using formulas. Keep the country and pay-period text as written. Paste columns EmployeeCode, Location, EmpID, PlantID, PayPeriod, LocationPlantID in source order.",
+      "subject": "Excel",
+      "skill": "Text extraction",
+      "datasets": [
+        "plant"
+      ],
+      "source": "1. Excel part 2/ETL Assignment/Analytics_mindset_case_studies_ETL.docx · Case 3",
+      "kind": "table",
+      "answer": [
+        [
+          "Japan177-3Mo",
+          "Japan",
+          177,
+          3,
+          "Mo",
+          "Japan-3"
+        ],
+        [
+          "AUS551-2Mo",
+          "AUS",
+          551,
+          2,
+          "Mo",
+          "AUS-2"
+        ],
+        [
+          "AUS316-2M",
+          "AUS",
+          316,
+          2,
+          "M",
+          "AUS-2"
+        ],
+        [
+          "GER160-2W",
+          "GER",
+          160,
+          2,
+          "W",
+          "GER-2"
+        ],
+        [
+          "GER265-1M",
+          "GER",
+          265,
+          1,
+          "M",
+          "GER-1"
+        ]
+      ],
+      "hint": "Country names and pay-period suffixes vary in length. Locate the first digit and the hyphen rather than using fixed offsets.",
+      "solution": "Use the first numeric position to end Location, the hyphen to end EmpID, and the first letter after the hyphen to end PlantID. Concatenate Location, '-', and PlantID.",
+      "columns": [
+        "EmployeeCode",
+        "Location",
+        "EmpID",
+        "PlantID",
+        "PayPeriod",
+        "LocationPlantID"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "X06",
+      "title": "The composite-key check",
+      "prompt": "Using PreparerInfo, list the preparer for PreparerID 101 in every business unit where that ID occurs. Return BusinessUnitID and PreparerName. Keep only the person's name before '|', without the job title. Sort by BusinessUnitID.",
+      "subject": "Excel",
+      "skill": "Composite-key lookups",
+      "datasets": [
+        "journal"
+      ],
+      "source": "1. Excel part 2/ETL Assignment/Analytics_mindset_case_studies_ETL.docx · Case 4",
+      "kind": "table",
+      "answer": [
+        [
+          1,
+          "Carolyn Slater"
+        ],
+        [
+          2,
+          "Alexander Knox"
+        ],
+        [
+          3,
+          "Gavin McGrath"
+        ],
+        [
+          4,
+          "Trevor Roberts"
+        ],
+        [
+          6,
+          "Rodney Wilkins"
+        ]
+      ],
+      "hint": "PreparerID is reused. Match both PreparerID and BusinessUnitID; split the descriptive text at '|'.",
+      "solution": "Match on the pair (PreparerID, BusinessUnitID), not PreparerID alone. In PreparerInfo, 101 maps to different people in different business units.",
+      "columns": [
+        "BusinessUnitID",
+        "PreparerName"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "X07",
+      "title": "Check the journal-line grain",
+      "prompt": "How many journal-entry line items are on JELineItems, excluding its header?",
+      "subject": "Excel",
+      "skill": "Data profiling",
+      "datasets": [
+        "journal"
+      ],
+      "source": "1. Excel part 2/ETL Assignment/Analytics_mindset_case_studies_ETL.docx · Case 4",
+      "kind": "number",
+      "answer": 789,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "There are 789 line items. A JENumber can occur on multiple lines; distinct journal numbers do not count line items.",
+      "tolerance": 0
+    },
+    {
+      "id": "X08",
+      "title": "Explain a repeatable lookup",
+      "prompt": "Explain why matching journal lines to preparers on PreparerID alone is unsafe, and how you would make the transformation repeatable.",
+      "subject": "Excel",
+      "skill": "Composite-key lookups",
+      "datasets": [
+        "journal"
+      ],
+      "source": "1. Excel part 2/ETL Assignment/Analytics_mindset_case_studies_ETL.docx · Case 4",
+      "kind": "explain",
+      "answer": null,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Use a two-criteria INDEX/MATCH or another valid composite-key lookup. Keep formulas, preserve the original sheets, and reconcile the line count before and after enrichment.",
+      "rubric": [
+        "PreparerID repeats across business units.",
+        "Use PreparerID and BusinessUnitID together.",
+        "Retain formulas and source data; check unmatched and duplicated results."
+      ]
+    },
+    {
+      "id": "X09",
+      "title": "Find phantom payroll entries",
+      "prompt": "How many 2016 payroll rows have no Employee_Number?",
+      "subject": "Excel",
+      "skill": "Missing values",
+      "datasets": [
+        "pay16"
+      ],
+      "source": "1. Excel part 3/IntegrateCo Assignment/Analytics_mindset_case_studies_IntegrateCo_Excel.docx · Part 4 Q3",
+      "kind": "number",
+      "answer": 68,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "There are 68 rows with no Employee_Number. Do not substitute Employee_ID, which is a different field.",
+      "tolerance": 0
+    },
+    {
+      "id": "X10",
+      "title": "Quantify phantom wages",
+      "prompt": "Sum Gross_Wages for 2016 rows with no Employee_Number. Round to two decimals.",
+      "subject": "Excel",
+      "skill": "Conditional totals",
+      "datasets": [
+        "pay16"
+      ],
+      "source": "1. Excel part 3/IntegrateCo Assignment/Analytics_mindset_case_studies_IntegrateCo_Excel.docx · Part 4 Q3",
+      "kind": "number",
+      "answer": 32951.29,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter missing Employee_Number and sum Gross_Wages: 32951.29."
+    },
+    {
+      "id": "X11",
+      "title": "Total employer cost",
+      "prompt": "Calculate total 2016 employee cost: Gross_Wages + SocSec_Medicare + FUTA + SUTA + Work_Comp across all rows, including phantom entries. Round to two decimals.",
+      "subject": "Excel",
+      "skill": "Calculated totals",
+      "datasets": [
+        "pay16"
+      ],
+      "source": "1. Excel part 3/IntegrateCo Assignment/Analytics_mindset_case_studies_IntegrateCo_Excel.docx · Part 4 Q5",
+      "kind": "number",
+      "answer": 1486454.83,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Sum all five columns across the complete file: 1486454.83. Gross_Wages already includes regular and overtime wages."
+    },
+    {
+      "id": "X12",
+      "title": "Make two payroll systems comparable",
+      "prompt": "Explain how to compare 2015 and 2016 gross wages by job code. Address field definitions, leading zeros, aggregation and the sign of the difference.",
+      "subject": "Excel",
+      "skill": "ETL and reconciliation",
+      "datasets": [
+        "pay15",
+        "pay16",
+        "jobs"
+      ],
+      "source": "1. Excel part 3/IntegrateCo Assignment/Analytics_mindset_case_studies_IntegrateCo_Excel.docx · Parts 2–3",
+      "kind": "explain",
+      "answer": null,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Align definitions first, extract and validate the job codes, then aggregate each year separately to a common grain. Use 2016 − 2015. This resolves contradictory subtraction wording in the source.",
+      "rubric": [
+        "2015 gross wages are Reg_Pay + OT_Pay; 2016 uses Gross_Wages.",
+        "Extract the three-digit job code as text and reconcile to JobCodes.",
+        "Aggregate both years to job code before comparing.",
+        "Define change explicitly as 2016 minus 2015; positive means an increase."
+      ]
+    },
+    {
+      "id": "S01",
+      "title": "The three longest songs",
+      "prompt": "Return the three longest songs, longest first. Use columns name and duration_ms.",
+      "subject": "SQL",
+      "skill": "Sorting and limits",
+      "datasets": [
+        "songs"
+      ],
+      "source": "2. SQL part 1/Assignments/cs50 assignment/songs/requierements.txt · adapted from 3.sql",
+      "kind": "table",
+      "answer": [
+        [
+          "Te Bote - Remix",
+          417920
+        ],
+        [
+          "SICKO MODE",
+          312820
+        ],
+        [
+          "Walk It Talk It",
+          276147
+        ]
+      ],
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT name, duration_ms FROM songs ORDER BY duration_ms DESC, name LIMIT 3",
+      "columns": [
+        "name",
+        "duration_ms"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "S02",
+      "title": "Average tempo",
+      "prompt": "Find the average tempo of all songs. Enter the result rounded to two decimals.",
+      "subject": "SQL",
+      "skill": "Aggregates",
+      "datasets": [
+        "songs"
+      ],
+      "source": "2. SQL part 1/Assignments/cs50 assignment/songs/requierements.txt · 5.sql",
+      "kind": "number",
+      "answer": 119.9,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT ROUND(AVG(tempo),2) FROM songs"
+    },
+    {
+      "id": "S03",
+      "title": "Find an artist's songs",
+      "prompt": "List the names of songs by Drake, alphabetically. Use the column name. Do not hard-code artist_id.",
+      "subject": "SQL",
+      "skill": "Joins",
+      "datasets": [
+        "songs"
+      ],
+      "source": "2. SQL part 1/Assignments/cs50 assignment/songs/requierements.txt · 6.sql",
+      "kind": "table",
+      "answer": [
+        [
+          "God's Plan"
+        ],
+        [
+          "In My Feelings"
+        ],
+        [
+          "Nice For What"
+        ],
+        [
+          "Nonstop"
+        ]
+      ],
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT s.name AS name FROM songs s JOIN artists a ON s.artist_id=a.id WHERE a.name='Drake' ORDER BY s.name",
+      "columns": [
+        "name"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "S04",
+      "title": "Artist-level average",
+      "prompt": "Find average energy for Post Malone's songs, rounded to three decimals.",
+      "subject": "SQL",
+      "skill": "Joins and aggregates",
+      "datasets": [
+        "songs"
+      ],
+      "source": "2. SQL part 1/Assignments/cs50 assignment/songs/requierements.txt · 7.sql",
+      "kind": "number",
+      "answer": 0.609,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT ROUND(AVG(s.energy),3) FROM songs s JOIN artists a ON s.artist_id=a.id WHERE a.name='Post Malone'"
+    },
+    {
+      "id": "S05",
+      "title": "High-value invoices",
+      "prompt": "How many invoices have Total strictly greater than 20?",
+      "subject": "SQL",
+      "skill": "Filtering",
+      "datasets": [
+        "chinook"
+      ],
+      "source": "2. SQL part 1/Assignments/pwc assignment/PWC SQL.docx · invoices above $20",
+      "kind": "number",
+      "answer": 4,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT COUNT(*) FROM Invoice WHERE Total>20"
+    },
+    {
+      "id": "S06",
+      "title": "A bounded invoice range",
+      "prompt": "How many invoices have Total strictly greater than 10 and strictly less than 20?",
+      "subject": "SQL",
+      "skill": "Boundary conditions",
+      "datasets": [
+        "chinook"
+      ],
+      "source": "2. SQL part 1/Assignments/pwc assignment/PWC SQL.docx · invoice range",
+      "kind": "number",
+      "answer": 60,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT COUNT(*) FROM Invoice WHERE Total>10 AND Total<20"
+    },
+    {
+      "id": "S07",
+      "title": "Sales by country",
+      "prompt": "Return the five largest billing-country invoice totals. Use Country and Total, round totals to two decimals, and sort Total descending then Country ascending.",
+      "subject": "SQL",
+      "skill": "Grouping and totals",
+      "datasets": [
+        "chinook"
+      ],
+      "source": "2. SQL part 1/Assignments/pwc assignment/PWC SQL.docx · adapted country totals",
+      "kind": "table",
+      "answer": [
+        [
+          "USA",
+          523.06
+        ],
+        [
+          "Canada",
+          303.96
+        ],
+        [
+          "France",
+          195.1
+        ],
+        [
+          "Brazil",
+          190.1
+        ],
+        [
+          "Germany",
+          156.48
+        ]
+      ],
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT BillingCountry AS Country, ROUND(SUM(Total),2) AS Total FROM Invoice GROUP BY BillingCountry ORDER BY Total DESC, Country LIMIT 5",
+      "columns": [
+        "Country",
+        "Total"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "S08",
+      "title": "Missing company names",
+      "prompt": "How many customers have a non-null Company?",
+      "subject": "SQL",
+      "skill": "Null handling",
+      "datasets": [
+        "chinook"
+      ],
+      "source": "2. SQL part 1/Assignments/pwc assignment/PWC SQL.docx · customers listing company",
+      "kind": "number",
+      "answer": 10,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT COUNT(*) FROM Customer WHERE Company IS NOT NULL"
+    },
+    {
+      "id": "S09",
+      "title": "Toy Story chronology",
+      "prompt": "List titles and release years of movies whose title starts with 'Toy Story'. Use title and year, sorted by year then title.",
+      "subject": "SQL",
+      "skill": "Text matching",
+      "datasets": [
+        "movies"
+      ],
+      "source": "2. SQL part 1/Assignments/cs50 assignment/movies/requierements.txt · 5.sql",
+      "kind": "table",
+      "answer": [
+        [
+          "Toy Story",
+          1995
+        ],
+        [
+          "Toy Story 2",
+          1999
+        ],
+        [
+          "Toy Story 3",
+          2010
+        ],
+        [
+          "Toy Story 4",
+          2019
+        ],
+        [
+          "Toy Story 3 in Real Life",
+          2020
+        ]
+      ],
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT title, year FROM movies WHERE title LIKE 'Toy Story%' ORDER BY year,title",
+      "columns": [
+        "title",
+        "year"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "S10",
+      "title": "Highly rated movies",
+      "prompt": "How many movies have a rating strictly greater than 9.0?",
+      "subject": "SQL",
+      "skill": "Filtering",
+      "datasets": [
+        "movies"
+      ],
+      "source": "2. SQL part 1/Assignments/cs50 assignment/movies/requierements.txt · 4.sql",
+      "kind": "number",
+      "answer": 1297,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT COUNT(*) FROM ratings WHERE rating>9.0"
+    },
+    {
+      "id": "S11",
+      "title": "An average across tables",
+      "prompt": "Find the mean rating of movies released in 2013; round to two decimals.",
+      "subject": "SQL",
+      "skill": "Joins and aggregates",
+      "datasets": [
+        "movies"
+      ],
+      "source": "2. SQL part 1/Assignments/cs50 assignment/movies/requierements.txt · 6.sql",
+      "kind": "number",
+      "answer": 6.23,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT ROUND(AVG(r.rating),2) FROM movies m JOIN ratings r ON m.id=r.movie_id WHERE m.year=2013"
+    },
+    {
+      "id": "S12",
+      "title": "Two actors, one film",
+      "prompt": "List titles of movies starring both Johnny Depp and Helena Bonham Carter, alphabetically. Use title.",
+      "subject": "SQL",
+      "skill": "Relational intersections",
+      "datasets": [
+        "movies"
+      ],
+      "source": "2. SQL part 1/Assignments/cs50 assignment/movies/requierements.txt · 12.sql",
+      "kind": "table",
+      "answer": [
+        [
+          "Alice Through the Looking Glass"
+        ],
+        [
+          "Alice in Wonderland"
+        ],
+        [
+          "Charlie and the Chocolate Factory"
+        ],
+        [
+          "Corpse Bride"
+        ],
+        [
+          "Dark Shadows"
+        ],
+        [
+          "Sweeney Todd: The Demon Barber of Fleet Street"
+        ]
+      ],
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT m.title FROM movies m WHERE m.id IN (SELECT s.movie_id FROM stars s JOIN people p ON p.id=s.person_id WHERE p.name='Johnny Depp') AND m.id IN (SELECT s.movie_id FROM stars s JOIN people p ON p.id=s.person_id WHERE p.name='Helena Bonham Carter') ORDER BY m.title",
+      "columns": [
+        "title"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "S13",
+      "title": "P-card population",
+      "prompt": "How many transactions are in the downloaded OSU 2014 subset? Count rows, including those with a missing Description.",
+      "subject": "SQL",
+      "skill": "Counting and nulls",
+      "datasets": [
+        "pcards"
+      ],
+      "source": "2. SQL part 2/Pcards Assignment/Analytics_mindset_case_studies_PCard.docx · Task 4 Q5, restricted to OSU 2014",
+      "kind": "number",
+      "answer": 116031,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT COUNT(*) FROM pcards"
+    },
+    {
+      "id": "S14",
+      "title": "Single-transaction limit",
+      "prompt": "How many transactions in the subset strictly exceed 5,000? Potential exceptions require follow-up; they do not prove misconduct.",
+      "subject": "SQL",
+      "skill": "Control testing",
+      "datasets": [
+        "pcards"
+      ],
+      "source": "2. SQL part 2/Pcards Assignment/Analytics_mindset_case_studies_PCard.docx · Task 5 Q3, count adaptation",
+      "kind": "number",
+      "answer": 33,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT COUNT(*) FROM pcards WHERE Amount>5000"
+    },
+    {
+      "id": "S15",
+      "title": "Large returns",
+      "prompt": "How many returns are at least 1,000 in absolute value? Returns are negative amounts.",
+      "subject": "SQL",
+      "skill": "Signed amounts",
+      "datasets": [
+        "pcards"
+      ],
+      "source": "2. SQL part 2/Pcards Assignment/Analytics_mindset_case_studies_PCard.docx · Task 4 Q17, count adaptation",
+      "kind": "number",
+      "answer": 114,
+      "hint": "A return of at least 1,000 is Amount <= -1000. Include the boundary.",
+      "solution": "SELECT COUNT(*) FROM pcards WHERE Amount<=-1000"
+    },
+    {
+      "id": "S16",
+      "title": "Investigate split purchases",
+      "prompt": "Describe how to flag same-person, same-vendor, same-day purchases whose combined amount exceeds 5,000. Explain why a flag is not proof of a violation.",
+      "subject": "SQL",
+      "skill": "Control testing",
+      "datasets": [
+        "pcards"
+      ],
+      "source": "2. SQL part 2/Pcards Assignment/Analytics_mindset_case_studies_PCard.docx · Task 5 Q4",
+      "kind": "explain",
+      "answer": null,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Aggregate by purchaser, vendor and date; apply COUNT(*) > 1 and SUM(Amount) > 5000; retrieve the underlying rows. Investigate context before concluding a control violation.",
+      "rubric": [
+        "Group by cardholder, vendor and transaction day.",
+        "Require more than one transaction and a combined amount above 5,000.",
+        "Join qualifying groups back to transaction details for investigation.",
+        "Consider authorisations, legitimate purchases and other explanations before concluding."
+      ]
+    },
+    {
+      "id": "R01",
+      "title": "Predict on a game day",
+      "prompt": "Fitted practice model from 312 observed days in the supplied workbook: Sales = 1044.415479 + (0.619594 × PriorYearSales) + (387.029626 × GameDay) + (0.01074 × PriorYearSales × GameDay). GameDay is 1 on listed game days and 0 otherwise. Sales and PriorYearSales use netTotal and netTotal_364 aggregated by date. Use these displayed coefficients.\n\nPredict sales when PriorYearSales = 1000 and GameDay = 1. Round to two decimals. This is a supplied-input practice scenario, not an actual seven-day-ahead forecast.",
+      "subject": "Interpretation",
+      "skill": "Regression prediction",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · prediction and interaction tasks",
+      "kind": "number",
+      "answer": 2061.78,
+      "hint": "Substitute into all four terms, including the interaction.",
+      "solution": "1044.415479 + 0.619594×1000 + 387.029626 + 0.01074×1000 = 2061.78."
+    },
+    {
+      "id": "R02",
+      "title": "Interpret a conditional slope",
+      "prompt": "Fitted practice model from 312 observed days in the supplied workbook: Sales = 1044.415479 + (0.619594 × PriorYearSales) + (387.029626 × GameDay) + (0.01074 × PriorYearSales × GameDay). GameDay is 1 on listed game days and 0 otherwise. Sales and PriorYearSales use netTotal and netTotal_364 aggregated by date. Use these displayed coefficients.\n\nExplain what the coefficient of PriorYearSales means, and how its meaning changes on a game day.",
+      "subject": "Interpretation",
+      "skill": "Interaction interpretation",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · final interaction task",
+      "kind": "explain",
+      "answer": null,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "The non-game-day slope is 0.619594; the game-day slope is 0.630334. A one-unit increase in prior-year sales is associated with these changes in predicted current sales in the fitted model.",
+      "rubric": [
+        "The main slope applies when GameDay = 0.",
+        "On a game day the slope is the main slope plus the interaction coefficient.",
+        "Describe an association in sales units, not a proven causal effect."
+      ]
+    },
+    {
+      "id": "R03",
+      "title": "The game-day contrast",
+      "prompt": "Fitted practice model from 312 observed days in the supplied workbook: Sales = 1044.415479 + (0.619594 × PriorYearSales) + (387.029626 × GameDay) + (0.01074 × PriorYearSales × GameDay). GameDay is 1 on listed game days and 0 otherwise. Sales and PriorYearSales use netTotal and netTotal_364 aggregated by date. Use these displayed coefficients.\n\nAt PriorYearSales = 1000, calculate predicted game-day sales minus predicted non-game-day sales. Round to two decimals.",
+      "subject": "Interpretation",
+      "skill": "Interaction interpretation",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · game-day and interaction tasks",
+      "kind": "number",
+      "answer": 397.77,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "The contrast is 387.029626 + 0.01074×1000 = 397.77. The main GameDay coefficient alone applies only at PriorYearSales = 0."
+    },
+    {
+      "id": "R04",
+      "title": "Communicate confidence",
+      "prompt": "Bob needs a sales forecast seven days beyond the last observed day. Explain what future inputs you would need and why a fitted regression does not guarantee accurate sales predictions.",
+      "subject": "Interpretation",
+      "skill": "Communicating uncertainty",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · prediction and communication tasks",
+      "kind": "explain",
+      "answer": null,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Use known calendar/game information and historical sales; obtain or explicitly assume other future inputs. Evaluate forecast errors on held-out dates. Explain uncertainty and its implications for staffing and ingredients.",
+      "rubric": [
+        "Specify the forecast date and aggregate sales target.",
+        "Use inputs genuinely available at forecast time; do not use future realised sales or weather.",
+        "Discuss model fit, forecast errors and unusual days.",
+        "Separate association from causal claims and explain operational implications."
+      ]
+    },
+    {
+      "id": "R05",
+      "title": "Temperature prediction",
+      "prompt": "Simple fitted practice model from 312 matched days: Sales = 2725.292435 + (7.579688 × tmax). tmax is maximum daily temperature in the source weather data (°F); Sales is daily aggregate netTotal. Use the displayed coefficients.\n\nPredict sales for tmax = 60°F. Round to two decimals.",
+      "subject": "Interpretation",
+      "skill": "Regression prediction",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · temperature task",
+      "kind": "number",
+      "answer": 3180.07,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "2725.292435 + 7.579688×60 = 3180.07."
+    },
+    {
+      "id": "R06",
+      "title": "Temperature slope",
+      "prompt": "Simple fitted practice model from 312 matched days: Sales = 2725.292435 + (7.579688 × tmax). tmax is maximum daily temperature in the source weather data (°F); Sales is daily aggregate netTotal. Use the displayed coefficients.\n\nInterpret the slope in context. Can you conclude that changing temperature causes sales to change?",
+      "subject": "Interpretation",
+      "skill": "Coefficient interpretation",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · temperature task",
+      "kind": "explain",
+      "answer": null,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "One additional degree Fahrenheit is associated with 7.579688 units of daily sales in this fitted model. Observational association does not establish causation or statistical significance.",
+      "rubric": [
+        "State the predicted sales change for one additional degree Fahrenheit.",
+        "Describe association rather than causation.",
+        "Acknowledge omitted factors and uncertainty; coefficients alone do not establish significance."
+      ]
+    },
+    {
+      "id": "R07",
+      "title": "A ten-degree comparison",
+      "prompt": "Simple fitted practice model from 312 matched days: Sales = 2725.292435 + (7.579688 × tmax). tmax is maximum daily temperature in the source weather data (°F); Sales is daily aggregate netTotal. Use the displayed coefficients.\n\nWhat is the model's predicted change in sales when tmax rises from 50°F to 60°F? Round to two decimals.",
+      "subject": "Interpretation",
+      "skill": "Regression prediction",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · temperature task",
+      "kind": "number",
+      "answer": 75.8,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Subtract the two predictions. The intercept cancels: 10×7.579688 = 75.80."
+    },
+    {
+      "id": "R08",
+      "title": "Prepare the restaurant data",
+      "prompt": "Explain how you would combine salesData, weatherData and gameData for a daily-sales regression without multiplying records or losing non-game days.",
+      "subject": "Interpretation",
+      "skill": "Regression preparation",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · ETL task",
+      "kind": "explain",
+      "answer": null,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Aggregate sales by date, check uniqueness of date in auxiliary tables, and left-join on date. Record the assumption that an absent game-date record means no game; inspect missing weather before fitting.",
+      "rubric": [
+        "Aggregate product-level sales to date.",
+        "Check one weather/game record per date before joining.",
+        "Preserve sales dates and treat absent scheduled game dates as non-game days under an explicit assumption.",
+        "Check missing weather and reconcile rows and total sales."
+      ]
+    },
+    {
+      "id": "X13",
+      "title": "Shooting permits · Brooklyn",
+      "prompt": "Count Shooting Permit records in Brooklyn. Use only that event type.",
+      "subject": "Excel",
+      "skill": "Conditional counts",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · adaptations of Q9–13",
+      "kind": "number",
+      "answer": 10367,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter EventType = Shooting Permit and Borough = Brooklyn; count EventID. Result: 10367.",
+      "tolerance": 0
+    },
+    {
+      "id": "X14",
+      "title": "Average duration · Brooklyn",
+      "prompt": "Calculate the mean duration in hours of Shooting Permits in Brooklyn. Round to two decimals.",
+      "subject": "Excel",
+      "skill": "Date arithmetic",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · adaptation of Q16",
+      "kind": "number",
+      "answer": 15.27,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter to Brooklyn shooting permits, subtract StartDateTime from EndDateTime, convert to hours, then average: 15.27."
+    },
+    {
+      "id": "X15",
+      "title": "Categories · Brooklyn",
+      "prompt": "Summarise Shooting Permits in Brooklyn by Category. Return Category and Count, sorted alphabetically by Category.",
+      "subject": "Excel",
+      "skill": "Pivot tables",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · adaptation of Q10–11",
+      "kind": "table",
+      "answer": [
+        [
+          "Commercial",
+          875
+        ],
+        [
+          "Documentary",
+          33
+        ],
+        [
+          "Film",
+          2187
+        ],
+        [
+          "Music Video",
+          45
+        ],
+        [
+          "Still Photography",
+          651
+        ],
+        [
+          "Student",
+          88
+        ],
+        [
+          "Television",
+          6041
+        ],
+        [
+          "Theater",
+          17
+        ],
+        [
+          "WEB",
+          430
+        ]
+      ],
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter the source population, then pivot Category in Rows and count EventID in Values. Sort Category A–Z.",
+      "columns": [
+        "Category",
+        "Count"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "X16",
+      "title": "Shooting permits · Manhattan",
+      "prompt": "Count Shooting Permit records in Manhattan. Use only that event type.",
+      "subject": "Excel",
+      "skill": "Conditional counts",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · adaptations of Q9–13",
+      "kind": "number",
+      "answer": 11732,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter EventType = Shooting Permit and Borough = Manhattan; count EventID. Result: 11732.",
+      "tolerance": 0
+    },
+    {
+      "id": "X17",
+      "title": "Average duration · Manhattan",
+      "prompt": "Calculate the mean duration in hours of Shooting Permits in Manhattan. Round to two decimals.",
+      "subject": "Excel",
+      "skill": "Date arithmetic",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · adaptation of Q16",
+      "kind": "number",
+      "answer": 19.38,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter to Manhattan shooting permits, subtract StartDateTime from EndDateTime, convert to hours, then average: 19.38."
+    },
+    {
+      "id": "X18",
+      "title": "Categories · Manhattan",
+      "prompt": "Summarise Shooting Permits in Manhattan by Category. Return Category and Count, sorted alphabetically by Category.",
+      "subject": "Excel",
+      "skill": "Pivot tables",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · adaptation of Q10–11",
+      "kind": "table",
+      "answer": [
+        [
+          "Commercial",
+          1478
+        ],
+        [
+          "Documentary",
+          100
+        ],
+        [
+          "Film",
+          2102
+        ],
+        [
+          "Music Video",
+          40
+        ],
+        [
+          "Red Carpet/Premiere",
+          1
+        ],
+        [
+          "Still Photography",
+          1089
+        ],
+        [
+          "Student",
+          67
+        ],
+        [
+          "Television",
+          5855
+        ],
+        [
+          "Theater",
+          404
+        ],
+        [
+          "WEB",
+          596
+        ]
+      ],
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter the source population, then pivot Category in Rows and count EventID in Values. Sort Category A–Z.",
+      "columns": [
+        "Category",
+        "Count"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "X19",
+      "title": "Shooting permits · Queens",
+      "prompt": "Count Shooting Permit records in Queens. Use only that event type.",
+      "subject": "Excel",
+      "skill": "Conditional counts",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · adaptations of Q9–13",
+      "kind": "number",
+      "answer": 5288,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter EventType = Shooting Permit and Borough = Queens; count EventID. Result: 5288.",
+      "tolerance": 0
+    },
+    {
+      "id": "X20",
+      "title": "Average duration · Queens",
+      "prompt": "Calculate the mean duration in hours of Shooting Permits in Queens. Round to two decimals.",
+      "subject": "Excel",
+      "skill": "Date arithmetic",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · adaptation of Q16",
+      "kind": "number",
+      "answer": 15.53,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter to Queens shooting permits, subtract StartDateTime from EndDateTime, convert to hours, then average: 15.53."
+    },
+    {
+      "id": "X21",
+      "title": "Categories · Queens",
+      "prompt": "Summarise Shooting Permits in Queens by Category. Return Category and Count, sorted alphabetically by Category.",
+      "subject": "Excel",
+      "skill": "Pivot tables",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · adaptation of Q10–11",
+      "kind": "table",
+      "answer": [
+        [
+          "Commercial",
+          169
+        ],
+        [
+          "Documentary",
+          7
+        ],
+        [
+          "Film",
+          727
+        ],
+        [
+          "Music Video",
+          9
+        ],
+        [
+          "Still Photography",
+          72
+        ],
+        [
+          "Student",
+          23
+        ],
+        [
+          "Television",
+          4095
+        ],
+        [
+          "Theater",
+          9
+        ],
+        [
+          "WEB",
+          177
+        ]
+      ],
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter the source population, then pivot Category in Rows and count EventID in Values. Sort Category A–Z.",
+      "columns": [
+        "Category",
+        "Count"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "X22",
+      "title": "Shooting permits · Bronx",
+      "prompt": "Count Shooting Permit records in Bronx. Use only that event type.",
+      "subject": "Excel",
+      "skill": "Conditional counts",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · adaptations of Q9–13",
+      "kind": "number",
+      "answer": 846,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter EventType = Shooting Permit and Borough = Bronx; count EventID. Result: 846.",
+      "tolerance": 0
+    },
+    {
+      "id": "X23",
+      "title": "Average duration · Bronx",
+      "prompt": "Calculate the mean duration in hours of Shooting Permits in Bronx. Round to two decimals.",
+      "subject": "Excel",
+      "skill": "Date arithmetic",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · adaptation of Q16",
+      "kind": "number",
+      "answer": 14.73,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter to Bronx shooting permits, subtract StartDateTime from EndDateTime, convert to hours, then average: 14.73."
+    },
+    {
+      "id": "X24",
+      "title": "Categories · Bronx",
+      "prompt": "Summarise Shooting Permits in Bronx by Category. Return Category and Count, sorted alphabetically by Category.",
+      "subject": "Excel",
+      "skill": "Pivot tables",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · adaptation of Q10–11",
+      "kind": "table",
+      "answer": [
+        [
+          "Commercial",
+          76
+        ],
+        [
+          "Documentary",
+          5
+        ],
+        [
+          "Film",
+          236
+        ],
+        [
+          "Music Video",
+          3
+        ],
+        [
+          "Still Photography",
+          33
+        ],
+        [
+          "Student",
+          10
+        ],
+        [
+          "Television",
+          472
+        ],
+        [
+          "Theater",
+          1
+        ],
+        [
+          "WEB",
+          10
+        ]
+      ],
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter the source population, then pivot Category in Rows and count EventID in Values. Sort Category A–Z.",
+      "columns": [
+        "Category",
+        "Count"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "X25",
+      "title": "Shooting permits · Staten Island",
+      "prompt": "Count Shooting Permit records in Staten Island. Use only that event type.",
+      "subject": "Excel",
+      "skill": "Conditional counts",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · adaptations of Q9–13",
+      "kind": "number",
+      "answer": 447,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter EventType = Shooting Permit and Borough = Staten Island; count EventID. Result: 447.",
+      "tolerance": 0
+    },
+    {
+      "id": "X26",
+      "title": "Average duration · Staten Island",
+      "prompt": "Calculate the mean duration in hours of Shooting Permits in Staten Island. Round to two decimals.",
+      "subject": "Excel",
+      "skill": "Date arithmetic",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · adaptation of Q16",
+      "kind": "number",
+      "answer": 15.17,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter to Staten Island shooting permits, subtract StartDateTime from EndDateTime, convert to hours, then average: 15.17."
+    },
+    {
+      "id": "X27",
+      "title": "Categories · Staten Island",
+      "prompt": "Summarise Shooting Permits in Staten Island by Category. Return Category and Count, sorted alphabetically by Category.",
+      "subject": "Excel",
+      "skill": "Pivot tables",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · adaptation of Q10–11",
+      "kind": "table",
+      "answer": [
+        [
+          "Commercial",
+          26
+        ],
+        [
+          "Film",
+          143
+        ],
+        [
+          "Music Video",
+          1
+        ],
+        [
+          "Still Photography",
+          2
+        ],
+        [
+          "Student",
+          5
+        ],
+        [
+          "Television",
+          268
+        ],
+        [
+          "Theater",
+          1
+        ],
+        [
+          "WEB",
+          1
+        ]
+      ],
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter the source population, then pivot Category in Rows and count EventID in Values. Sort Category A–Z.",
+      "columns": [
+        "Category",
+        "Count"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "X28",
+      "title": "Shooting permits in 2013",
+      "prompt": "Count Shooting Permits with StartDateTime in calendar year 2013. Include January 1 and exclude January 1 of the next year.",
+      "subject": "Excel",
+      "skill": "Date filters",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · adaptations of Q13–15",
+      "kind": "number",
+      "answer": 4922,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter EventType and the specified start-date interval. The count is 4922.",
+      "tolerance": 0
+    },
+    {
+      "id": "X29",
+      "title": "Shooting permits in 2014",
+      "prompt": "Count Shooting Permits with StartDateTime in calendar year 2014. Include January 1 and exclude January 1 of the next year.",
+      "subject": "Excel",
+      "skill": "Date filters",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · adaptations of Q13–15",
+      "kind": "number",
+      "answer": 4818,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter EventType and the specified start-date interval. The count is 4818.",
+      "tolerance": 0
+    },
+    {
+      "id": "X30",
+      "title": "Shooting permits in 2015",
+      "prompt": "Count Shooting Permits with StartDateTime in calendar year 2015. Include January 1 and exclude January 1 of the next year.",
+      "subject": "Excel",
+      "skill": "Date filters",
+      "datasets": [
+        "film"
+      ],
+      "source": "1. Excel Part 1/PWC Excel Assignment/Assignment_01_Excel-SQL.xlsx · Excel Questions · adaptations of Q13–15",
+      "kind": "number",
+      "answer": 5376,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter EventType and the specified start-date interval. The count is 5376.",
+      "tolerance": 0
+    },
+    {
+      "id": "X31",
+      "title": "Journal lines · unit 1",
+      "prompt": "On JELineItems, count line items for BusinessUnitID 1. Count lines, not distinct JENumber values.",
+      "subject": "Excel",
+      "skill": "Conditional counts",
+      "datasets": [
+        "journal"
+      ],
+      "source": "1. Excel part 2/ETL Assignment/Analytics_mindset_case_studies_ETL.docx · Case 4, line-count adaptation",
+      "kind": "number",
+      "answer": 423,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter BusinessUnitID = 1 and count data rows: 423.",
+      "tolerance": 0
+    },
+    {
+      "id": "X32",
+      "title": "Journal lines · unit 2",
+      "prompt": "On JELineItems, count line items for BusinessUnitID 2. Count lines, not distinct JENumber values.",
+      "subject": "Excel",
+      "skill": "Conditional counts",
+      "datasets": [
+        "journal"
+      ],
+      "source": "1. Excel part 2/ETL Assignment/Analytics_mindset_case_studies_ETL.docx · Case 4, line-count adaptation",
+      "kind": "number",
+      "answer": 189,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter BusinessUnitID = 2 and count data rows: 189.",
+      "tolerance": 0
+    },
+    {
+      "id": "X33",
+      "title": "Journal lines · unit 3",
+      "prompt": "On JELineItems, count line items for BusinessUnitID 3. Count lines, not distinct JENumber values.",
+      "subject": "Excel",
+      "skill": "Conditional counts",
+      "datasets": [
+        "journal"
+      ],
+      "source": "1. Excel part 2/ETL Assignment/Analytics_mindset_case_studies_ETL.docx · Case 4, line-count adaptation",
+      "kind": "number",
+      "answer": 72,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter BusinessUnitID = 3 and count data rows: 72.",
+      "tolerance": 0
+    },
+    {
+      "id": "X34",
+      "title": "Journal lines · unit 4",
+      "prompt": "On JELineItems, count line items for BusinessUnitID 4. Count lines, not distinct JENumber values.",
+      "subject": "Excel",
+      "skill": "Conditional counts",
+      "datasets": [
+        "journal"
+      ],
+      "source": "1. Excel part 2/ETL Assignment/Analytics_mindset_case_studies_ETL.docx · Case 4, line-count adaptation",
+      "kind": "number",
+      "answer": 56,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Filter BusinessUnitID = 4 and count data rows: 56.",
+      "tolerance": 0
+    },
+    {
+      "id": "X35",
+      "title": "Payroll component · Gross_Wages",
+      "prompt": "Sum Gross_Wages across every row in the 2016 payroll file, including rows without an Employee_Number. Round to two decimals.",
+      "subject": "Excel",
+      "skill": "Calculated totals",
+      "datasets": [
+        "pay16"
+      ],
+      "source": "1. Excel part 3/IntegrateCo Assignment/Analytics_mindset_case_studies_IntegrateCo_Excel.docx · Part 4 Q5, component adaptation",
+      "kind": "number",
+      "answer": 1352789.75,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Sum the complete Gross_Wages column: 1352789.75. Keep phantom entries in this population."
+    },
+    {
+      "id": "X36",
+      "title": "Payroll component · SocSec_Medicare",
+      "prompt": "Sum SocSec_Medicare across every row in the 2016 payroll file, including rows without an Employee_Number. Round to two decimals.",
+      "subject": "Excel",
+      "skill": "Calculated totals",
+      "datasets": [
+        "pay16"
+      ],
+      "source": "1. Excel part 3/IntegrateCo Assignment/Analytics_mindset_case_studies_IntegrateCo_Excel.docx · Part 4 Q5, component adaptation",
+      "kind": "number",
+      "answer": 97908.28,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Sum the complete SocSec_Medicare column: 97908.28. Keep phantom entries in this population."
+    },
+    {
+      "id": "X37",
+      "title": "Payroll component · FUTA",
+      "prompt": "Sum FUTA across every row in the 2016 payroll file, including rows without an Employee_Number. Round to two decimals.",
+      "subject": "Excel",
+      "skill": "Calculated totals",
+      "datasets": [
+        "pay16"
+      ],
+      "source": "1. Excel part 3/IntegrateCo Assignment/Analytics_mindset_case_studies_IntegrateCo_Excel.docx · Part 4 Q5, component adaptation",
+      "kind": "number",
+      "answer": 1716.18,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Sum the complete FUTA column: 1716.18. Keep phantom entries in this population."
+    },
+    {
+      "id": "X38",
+      "title": "Payroll component · SUTA",
+      "prompt": "Sum SUTA across every row in the 2016 payroll file, including rows without an Employee_Number. Round to two decimals.",
+      "subject": "Excel",
+      "skill": "Calculated totals",
+      "datasets": [
+        "pay16"
+      ],
+      "source": "1. Excel part 3/IntegrateCo Assignment/Analytics_mindset_case_studies_IntegrateCo_Excel.docx · Part 4 Q5, component adaptation",
+      "kind": "number",
+      "answer": 23986.44,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Sum the complete SUTA column: 23986.44. Keep phantom entries in this population."
+    },
+    {
+      "id": "X39",
+      "title": "Payroll component · Work_Comp",
+      "prompt": "Sum Work_Comp across every row in the 2016 payroll file, including rows without an Employee_Number. Round to two decimals.",
+      "subject": "Excel",
+      "skill": "Calculated totals",
+      "datasets": [
+        "pay16"
+      ],
+      "source": "1. Excel part 3/IntegrateCo Assignment/Analytics_mindset_case_studies_IntegrateCo_Excel.docx · Part 4 Q5, component adaptation",
+      "kind": "number",
+      "answer": 10054.18,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Sum the complete Work_Comp column: 10054.18. Keep phantom entries in this population."
+    },
+    {
+      "id": "X40",
+      "title": "2015 payroll · Reg_Pay",
+      "prompt": "Find the total Reg_Pay across all 2015 payroll records. Round to two decimals.",
+      "subject": "Excel",
+      "skill": "Calculated totals",
+      "datasets": [
+        "pay15"
+      ],
+      "source": "1. Excel part 3/IntegrateCo Assignment/Analytics_mindset_case_studies_IntegrateCo_Excel.docx · Parts 3–4, totals adaptation",
+      "kind": "number",
+      "answer": 1072201.16,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Sum all rows of Reg_Pay: 1072201.16. Do not average employee-level averages."
+    },
+    {
+      "id": "X41",
+      "title": "2015 payroll · OT_Pay",
+      "prompt": "Find the total OT_Pay across all 2015 payroll records. Round to two decimals.",
+      "subject": "Excel",
+      "skill": "Calculated totals",
+      "datasets": [
+        "pay15"
+      ],
+      "source": "1. Excel part 3/IntegrateCo Assignment/Analytics_mindset_case_studies_IntegrateCo_Excel.docx · Parts 3–4, totals adaptation",
+      "kind": "number",
+      "answer": 14533.03,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Sum all rows of OT_Pay: 14533.03. Do not average employee-level averages."
+    },
+    {
+      "id": "X42",
+      "title": "2015 payroll · Reg_Hrs",
+      "prompt": "Find the total Reg_Hrs across all 2015 payroll records. Round to two decimals.",
+      "subject": "Excel",
+      "skill": "Calculated totals",
+      "datasets": [
+        "pay15"
+      ],
+      "source": "1. Excel part 3/IntegrateCo Assignment/Analytics_mindset_case_studies_IntegrateCo_Excel.docx · Parts 3–4, totals adaptation",
+      "kind": "number",
+      "answer": 32521.75,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Sum all rows of Reg_Hrs: 32521.75. Do not average employee-level averages."
+    },
+    {
+      "id": "X43",
+      "title": "2015 payroll · OT_Hrs",
+      "prompt": "Find the total OT_Hrs across all 2015 payroll records. Round to two decimals.",
+      "subject": "Excel",
+      "skill": "Calculated totals",
+      "datasets": [
+        "pay15"
+      ],
+      "source": "1. Excel part 3/IntegrateCo Assignment/Analytics_mindset_case_studies_IntegrateCo_Excel.docx · Parts 3–4, totals adaptation",
+      "kind": "number",
+      "answer": 357.0,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Sum all rows of OT_Hrs: 357.00. Do not average employee-level averages."
+    },
+    {
+      "id": "S17",
+      "title": "High-energy songs",
+      "prompt": "List name and energy for songs with energy > 0.8, sorted by energy descending then name.",
+      "subject": "SQL",
+      "skill": "Filtering",
+      "datasets": [
+        "songs"
+      ],
+      "source": "2. SQL part 1/Assignments/cs50 assignment/songs/requierements.txt · adaptation of 4.sql",
+      "kind": "table",
+      "answer": [
+        [
+          "Nice For What",
+          0.909
+        ],
+        [
+          "1, 2, 3 (feat. Jason Derulo & De La Ghetto)",
+          0.895
+        ],
+        [
+          "Echame La Culpa",
+          0.889
+        ],
+        [
+          "FRIENDS",
+          0.88
+        ],
+        [
+          "One Kiss (with Dua Lipa)",
+          0.862
+        ],
+        [
+          "Finesse (Remix) [feat. Cardi B]",
+          0.859
+        ],
+        [
+          "Youngblood",
+          0.854
+        ],
+        [
+          "Dura",
+          0.848
+        ],
+        [
+          "Jackie Chan",
+          0.834
+        ],
+        [
+          "Thunder",
+          0.822
+        ],
+        [
+          "Stir Fry",
+          0.816
+        ],
+        [
+          "Criminal",
+          0.813
+        ],
+        [
+          "These Days (feat. Jess Glynne, Macklemore & Dan Caplen)",
+          0.809
+        ],
+        [
+          "Wolves",
+          0.807
+        ],
+        [
+          "Vaina Loca",
+          0.805
+        ],
+        [
+          "Congratulations",
+          0.804
+        ]
+      ],
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT name,energy FROM songs WHERE energy>0.8 ORDER BY energy DESC,name",
+      "columns": [
+        "name",
+        "energy"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "S18",
+      "title": "A multi-condition playlist",
+      "prompt": "List name for songs whose danceability, energy and valence are all > 0.6. Sort alphabetically.",
+      "subject": "SQL",
+      "skill": "Combined conditions",
+      "datasets": [
+        "songs"
+      ],
+      "source": "2. SQL part 1/Assignments/cs50 assignment/songs/requierements.txt · 4.sql",
+      "kind": "table",
+      "answer": [
+        [
+          "1, 2, 3 (feat. Jason Derulo & De La Ghetto)"
+        ],
+        [
+          "2002"
+        ],
+        [
+          "Believer"
+        ],
+        [
+          "Corazon (feat. Nego do Borel)"
+        ],
+        [
+          "Criminal"
+        ],
+        [
+          "Dejala que vuelva (feat. Manuel Turizo)"
+        ],
+        [
+          "Downtown"
+        ],
+        [
+          "Dura"
+        ],
+        [
+          "Echame La Culpa"
+        ],
+        [
+          "Feel It Still"
+        ],
+        [
+          "Finesse (Remix) [feat. Cardi B]"
+        ],
+        [
+          "Happier"
+        ],
+        [
+          "I Like It"
+        ],
+        [
+          "Jackie Chan"
+        ],
+        [
+          "Let Me Go (with Alesso, Florida Georgia Line & watt)"
+        ],
+        [
+          "Me Niego"
+        ],
+        [
+          "Mine"
+        ],
+        [
+          "New Rules"
+        ],
+        [
+          "Rise"
+        ],
+        [
+          "River (feat. Ed Sheeran)"
+        ],
+        [
+          "Shape of You"
+        ],
+        [
+          "Siguelo Bailando"
+        ],
+        [
+          "Sin Pijama"
+        ]
+      ],
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT name FROM songs WHERE danceability>0.6 AND energy>0.6 AND valence>0.6 ORDER BY name",
+      "columns": [
+        "name"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "S19",
+      "title": "Featured artists",
+      "prompt": "List name for songs containing 'feat.' in the title, sorted alphabetically.",
+      "subject": "SQL",
+      "skill": "Text matching",
+      "datasets": [
+        "songs"
+      ],
+      "source": "2. SQL part 1/Assignments/cs50 assignment/songs/requierements.txt · 8.sql",
+      "kind": "table",
+      "answer": [
+        [
+          "1, 2, 3 (feat. Jason Derulo & De La Ghetto)"
+        ],
+        [
+          "Body (feat. brando)"
+        ],
+        [
+          "Corazon (feat. Nego do Borel)"
+        ],
+        [
+          "Dejala que vuelva (feat. Manuel Turizo)"
+        ],
+        [
+          "FEFE (feat. Nicki Minaj & Murda Beatz)"
+        ],
+        [
+          "Finesse (Remix) [feat. Cardi B]"
+        ],
+        [
+          "Freaky Friday (feat. Chris Brown)"
+        ],
+        [
+          "Fuck Love (feat. Trippie Redd)"
+        ],
+        [
+          "Girls Like You (feat. Cardi B)"
+        ],
+        [
+          "I Miss You (feat. Julia Michaels)"
+        ],
+        [
+          "Look Alive (feat. Drake)"
+        ],
+        [
+          "Meant to Be (feat. Florida Georgia Line)"
+        ],
+        [
+          "Psycho (feat. Ty Dolla $ign)"
+        ],
+        [
+          "River (feat. Ed Sheeran)"
+        ],
+        [
+          "Solo (feat. Demi Lovato)"
+        ],
+        [
+          "Taste (feat. Offset)"
+        ],
+        [
+          "These Days (feat. Jess Glynne, Macklemore & Dan Caplen)"
+        ],
+        [
+          "rockstar (feat. 21 Savage)"
+        ]
+      ],
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT name FROM songs WHERE name LIKE '%feat.%' ORDER BY name",
+      "columns": [
+        "name"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "S20",
+      "title": "Fastest tempos",
+      "prompt": "List name and tempo for the five fastest songs; sort tempo descending then name.",
+      "subject": "SQL",
+      "skill": "Sorting and limits",
+      "datasets": [
+        "songs"
+      ],
+      "source": "2. SQL part 1/Assignments/cs50 assignment/songs/requierements.txt · adaptation of 2.sql",
+      "kind": "table",
+      "answer": [
+        [
+          "Corazon (feat. Nego do Borel)",
+          198.075
+        ],
+        [
+          "This Is Me",
+          191.702
+        ],
+        [
+          "Stir Fry",
+          181.967
+        ],
+        [
+          "X",
+          180.073
+        ],
+        [
+          "Dusk Till Dawn - Radio Edit",
+          180.043
+        ]
+      ],
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT name,tempo FROM songs ORDER BY tempo DESC,name LIMIT 5",
+      "columns": [
+        "name",
+        "tempo"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "S21",
+      "title": "South American invoices",
+      "prompt": "Count invoices with BillingCountry in Brazil, Argentina or Chile.",
+      "subject": "SQL",
+      "skill": "Set filters",
+      "datasets": [
+        "chinook"
+      ],
+      "source": "2. SQL part 1/Assignments/pwc assignment/PWC SQL.docx · South American invoices",
+      "kind": "number",
+      "answer": 49,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT COUNT(*) FROM Invoice WHERE BillingCountry IN ('Brazil','Argentina','Chile')"
+    },
+    {
+      "id": "S22",
+      "title": "Country prefix",
+      "prompt": "Count invoices whose BillingCountry starts with C.",
+      "subject": "SQL",
+      "skill": "Text matching",
+      "datasets": [
+        "chinook"
+      ],
+      "source": "2. SQL part 1/Assignments/pwc assignment/PWC SQL.docx · country prefix",
+      "kind": "number",
+      "answer": 77,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT COUNT(*) FROM Invoice WHERE BillingCountry LIKE 'C%'"
+    },
+    {
+      "id": "S23",
+      "title": "Invoice-line count",
+      "prompt": "How many InvoiceLine records are there?",
+      "subject": "SQL",
+      "skill": "Counting",
+      "datasets": [
+        "chinook"
+      ],
+      "source": "2. SQL part 1/Assignments/pwc assignment/PWC SQL.docx · invoice line items",
+      "kind": "number",
+      "answer": 2240,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT COUNT(*) FROM InvoiceLine"
+    },
+    {
+      "id": "S24",
+      "title": "Distinct unit prices",
+      "prompt": "How many distinct UnitPrice values occur in InvoiceLine?",
+      "subject": "SQL",
+      "skill": "Distinct values",
+      "datasets": [
+        "chinook"
+      ],
+      "source": "2. SQL part 1/Assignments/pwc assignment/PWC SQL.docx · distinct prices",
+      "kind": "number",
+      "answer": 2,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT COUNT(DISTINCT UnitPrice) FROM InvoiceLine"
+    },
+    {
+      "id": "S25",
+      "title": "Downloads at each price",
+      "prompt": "Sum Quantity by UnitPrice in InvoiceLine. Return UnitPrice and Downloads in ascending price order.",
+      "subject": "SQL",
+      "skill": "Grouping and totals",
+      "datasets": [
+        "chinook"
+      ],
+      "source": "2. SQL part 1/Assignments/pwc assignment/PWC SQL.docx · downloads per price",
+      "kind": "table",
+      "answer": [
+        [
+          0.99,
+          2129
+        ],
+        [
+          1.99,
+          111
+        ]
+      ],
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT UnitPrice,SUM(Quantity) AS Downloads FROM InvoiceLine GROUP BY UnitPrice ORDER BY UnitPrice",
+      "columns": [
+        "UnitPrice",
+        "Downloads"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "S26",
+      "title": "Longest surname",
+      "prompt": "What is the maximum length of LastName in Employee?",
+      "subject": "SQL",
+      "skill": "Text functions",
+      "datasets": [
+        "chinook"
+      ],
+      "source": "2. SQL part 1/Assignments/pwc assignment/PWC SQL.docx · longest last name",
+      "kind": "number",
+      "answer": 8,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT MAX(LENGTH(LastName)) FROM Employee"
+    },
+    {
+      "id": "S27",
+      "title": "Employee population",
+      "prompt": "How many employees does Chinook have?",
+      "subject": "SQL",
+      "skill": "Counting",
+      "datasets": [
+        "chinook"
+      ],
+      "source": "2. SQL part 1/Assignments/pwc assignment/PWC SQL.docx · employee count",
+      "kind": "number",
+      "answer": 8,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT COUNT(*) FROM Employee"
+    },
+    {
+      "id": "S28",
+      "title": "Movie release year",
+      "prompt": "Count movies released in 2007.",
+      "subject": "SQL",
+      "skill": "Filtering",
+      "datasets": [
+        "movies"
+      ],
+      "source": "2. SQL part 1/Assignments/cs50 assignment/movies/requierements.txt · count adaptation of 1.sql",
+      "kind": "number",
+      "answer": 8214,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT COUNT(*) FROM movies WHERE year=2007"
+    },
+    {
+      "id": "S29",
+      "title": "Identify the person",
+      "prompt": "Return Johnny Depp's birth year as a number. Assume the name is unique in this database.",
+      "subject": "SQL",
+      "skill": "Filtering",
+      "datasets": [
+        "movies"
+      ],
+      "source": "2. SQL part 1/Assignments/cs50 assignment/movies/requierements.txt · 2.sql",
+      "kind": "number",
+      "answer": 1963,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT birth FROM people WHERE name='Johnny Depp'"
+    },
+    {
+      "id": "S30",
+      "title": "Harry Potter cast",
+      "prompt": "List name of all people starring in Harry Potter and the Sorcerer's Stone. Sort alphabetically.",
+      "subject": "SQL",
+      "skill": "Joins",
+      "datasets": [
+        "movies"
+      ],
+      "source": "2. SQL part 1/Assignments/cs50 assignment/movies/requierements.txt · 8.sql",
+      "kind": "table",
+      "answer": [
+        [
+          "Daniel Radcliffe"
+        ],
+        [
+          "Maggie Smith"
+        ],
+        [
+          "Richard Harris"
+        ],
+        [
+          "Rupert Grint"
+        ]
+      ],
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT p.name FROM people p JOIN stars s ON s.person_id=p.id JOIN movies m ON m.id=s.movie_id WHERE m.title='Harry Potter and the Sorcerer''s Stone' ORDER BY p.name",
+      "columns": [
+        "name"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "S31",
+      "title": "Top-rated performances",
+      "prompt": "List title and rating for the five highest-rated movies starring Helena Bonham Carter. Sort rating descending, then title for ties.",
+      "subject": "SQL",
+      "skill": "Joins and ranking",
+      "datasets": [
+        "movies"
+      ],
+      "source": "2. SQL part 1/Assignments/cs50 assignment/movies/requierements.txt · adaptation of 11.sql",
+      "kind": "table",
+      "answer": [
+        [
+          "Night Will Fall",
+          8.0
+        ],
+        [
+          "The King's Speech",
+          8.0
+        ],
+        [
+          "Howards End",
+          7.4
+        ],
+        [
+          "Wallace & Gromit: The Curse of the Were-Rabbit",
+          7.4
+        ],
+        [
+          "A Room with a View",
+          7.3
+        ]
+      ],
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT m.title,r.rating FROM movies m JOIN ratings r ON r.movie_id=m.id JOIN stars s ON s.movie_id=m.id JOIN people p ON p.id=s.person_id WHERE p.name='Helena Bonham Carter' ORDER BY r.rating DESC,m.title LIMIT 5",
+      "columns": [
+        "title",
+        "rating"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "S32",
+      "title": "Returns population",
+      "prompt": "Count all negative-Amount transactions in the OSU 2014 subset.",
+      "subject": "SQL",
+      "skill": "Signed amounts",
+      "datasets": [
+        "pcards"
+      ],
+      "source": "2. SQL part 2/Pcards Assignment/Analytics_mindset_case_studies_PCard.docx · Task 4 Q10, count adaptation",
+      "kind": "number",
+      "answer": 3791,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT COUNT(*) FROM pcards WHERE Amount<0"
+    },
+    {
+      "id": "S33",
+      "title": "Returned value",
+      "prompt": "Calculate the signed total Amount of returns in the OSU 2014 subset. Enter a negative number rounded to two decimals.",
+      "subject": "SQL",
+      "skill": "Conditional totals",
+      "datasets": [
+        "pcards"
+      ],
+      "source": "2. SQL part 2/Pcards Assignment/Analytics_mindset_case_studies_PCard.docx · Task 4 Q10, total adaptation",
+      "kind": "number",
+      "answer": -629445.26,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT ROUND(SUM(Amount),2) FROM pcards WHERE Amount<0"
+    },
+    {
+      "id": "S34",
+      "title": "Monthly transaction counts",
+      "prompt": "Return Month and Transactions for all months in the OSU 2014 subset, sorted by Month ascending.",
+      "subject": "SQL",
+      "skill": "Grouping",
+      "datasets": [
+        "pcards"
+      ],
+      "source": "2. SQL part 2/Pcards Assignment/Analytics_mindset_case_studies_PCard.docx · Task 4 Q8, month adaptation",
+      "kind": "table",
+      "answer": [
+        [
+          1,
+          9599
+        ],
+        [
+          2,
+          9597
+        ],
+        [
+          3,
+          9899
+        ],
+        [
+          4,
+          10849
+        ],
+        [
+          5,
+          10152
+        ],
+        [
+          6,
+          9879
+        ],
+        [
+          7,
+          9516
+        ],
+        [
+          8,
+          9729
+        ],
+        [
+          9,
+          10226
+        ],
+        [
+          10,
+          10951
+        ],
+        [
+          11,
+          8727
+        ],
+        [
+          12,
+          6907
+        ]
+      ],
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT Month,COUNT(*) AS Transactions FROM pcards GROUP BY Month ORDER BY Month",
+      "columns": [
+        "Month",
+        "Transactions"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "S35",
+      "title": "At the threshold",
+      "prompt": "Count transactions with Amount >= 5000 in the OSU 2014 subset. Include exactly 5000.",
+      "subject": "SQL",
+      "skill": "Boundary conditions",
+      "datasets": [
+        "pcards"
+      ],
+      "source": "2. SQL part 2/Pcards Assignment/Analytics_mindset_case_studies_PCard.docx · Task 4 Q6",
+      "kind": "number",
+      "answer": 53,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT COUNT(*) FROM pcards WHERE Amount>=5000"
+    },
+    {
+      "id": "S36",
+      "title": "Q1 returns",
+      "prompt": "Find the signed total of returns during January through March in the OSU 2014 subset, using Month. Round to two decimals.",
+      "subject": "SQL",
+      "skill": "Date filters",
+      "datasets": [
+        "pcards"
+      ],
+      "source": "2. SQL part 2/Pcards Assignment/Analytics_mindset_case_studies_PCard.docx · Task 4 Q7",
+      "kind": "number",
+      "answer": -157882.08,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT ROUND(SUM(Amount),2) FROM pcards WHERE Month BETWEEN 1 AND 3 AND Amount<0"
+    },
+    {
+      "id": "S37",
+      "title": "Highest spending vendors",
+      "prompt": "Return Vendor and Total for the five vendors with highest net spend in the OSU 2014 subset. Round Total to two decimals; sort descending Total then Vendor.",
+      "subject": "SQL",
+      "skill": "Grouping and totals",
+      "datasets": [
+        "pcards"
+      ],
+      "source": "2. SQL part 2/Pcards Assignment/Analytics_mindset_case_studies_PCard.docx · Task 4 vendor aggregation adaptation",
+      "kind": "table",
+      "answer": [
+        [
+          "Amazon.com",
+          440379.18
+        ],
+        [
+          "AMAZON MKTPLACE PMTS",
+          403152.27
+        ],
+        [
+          "LOWES #00241",
+          368887.18
+        ],
+        [
+          "VWR INTERNATIONAL INC",
+          366372.17
+        ],
+        [
+          "WW GRAINGER",
+          277091.82
+        ]
+      ],
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT Vendor,ROUND(SUM(Amount),2) AS Total FROM pcards GROUP BY Vendor ORDER BY Total DESC,Vendor LIMIT 5",
+      "columns": [
+        "Vendor",
+        "Total"
+      ],
+      "ordered": true
+    },
+    {
+      "id": "S38",
+      "title": "Medium-risk returns",
+      "prompt": "Count returns with absolute value at least 500 and strictly below 1000 in the OSU 2014 subset.",
+      "subject": "SQL",
+      "skill": "Boundary conditions",
+      "datasets": [
+        "pcards"
+      ],
+      "source": "2. SQL part 2/Pcards Assignment/Analytics_mindset_case_studies_PCard.docx · Task 4 Q17",
+      "kind": "number",
+      "answer": 163,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT COUNT(*) FROM pcards WHERE Amount<=-500 AND Amount>-1000"
+    },
+    {
+      "id": "S39",
+      "title": "Low-risk returns",
+      "prompt": "Count negative returns with absolute value strictly below 500 in the OSU 2014 subset.",
+      "subject": "SQL",
+      "skill": "Boundary conditions",
+      "datasets": [
+        "pcards"
+      ],
+      "source": "2. SQL part 2/Pcards Assignment/Analytics_mindset_case_studies_PCard.docx · Task 4 Q17",
+      "kind": "number",
+      "answer": 3514,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT COUNT(*) FROM pcards WHERE Amount<0 AND Amount>-500"
+    },
+    {
+      "id": "S40",
+      "title": "December tax scenario",
+      "prompt": "Assume all December transactions in the OSU 2014 subset are net of state sales tax. Calculate 4.5% of their net Amount sum, rounded to two decimals.",
+      "subject": "SQL",
+      "skill": "Calculated totals",
+      "datasets": [
+        "pcards"
+      ],
+      "source": "2. SQL part 2/Pcards Assignment/Analytics_mindset_case_studies_PCard.docx · Task 4 Q13–14",
+      "kind": "number",
+      "answer": 98497.19,
+      "hint": "Check filtering, joins, aggregation and the requested sort order.",
+      "solution": "SELECT ROUND(SUM(Amount)*0.045,2) FROM pcards WHERE Month=12"
+    },
+    {
+      "id": "R09",
+      "title": "Sales scenario · 500, no game",
+      "prompt": "Fitted practice model from 312 observed days in the supplied workbook: Sales = 1044.415479 + (0.619594 × PriorYearSales) + (387.029626 × GameDay) + (0.01074 × PriorYearSales × GameDay). GameDay is 1 on listed game days and 0 otherwise. Sales and PriorYearSales use netTotal and netTotal_364 aggregated by date. Use these displayed coefficients.\n\nPredict sales when PriorYearSales = 500 and GameDay = 0. Round to two decimals. These are supplied hypothetical inputs.",
+      "subject": "Interpretation",
+      "skill": "Regression prediction",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · prediction and interaction tasks",
+      "kind": "number",
+      "answer": 1354.21,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Substitute 500 and 0 into the displayed model: 1354.21."
+    },
+    {
+      "id": "R10",
+      "title": "Sales scenario · 500, game",
+      "prompt": "Fitted practice model from 312 observed days in the supplied workbook: Sales = 1044.415479 + (0.619594 × PriorYearSales) + (387.029626 × GameDay) + (0.01074 × PriorYearSales × GameDay). GameDay is 1 on listed game days and 0 otherwise. Sales and PriorYearSales use netTotal and netTotal_364 aggregated by date. Use these displayed coefficients.\n\nPredict sales when PriorYearSales = 500 and GameDay = 1. Round to two decimals. These are supplied hypothetical inputs.",
+      "subject": "Interpretation",
+      "skill": "Regression prediction",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · prediction and interaction tasks",
+      "kind": "number",
+      "answer": 1746.61,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Substitute 500 and 1 into the displayed model: 1746.61."
+    },
+    {
+      "id": "R11",
+      "title": "Sales scenario · 750, no game",
+      "prompt": "Fitted practice model from 312 observed days in the supplied workbook: Sales = 1044.415479 + (0.619594 × PriorYearSales) + (387.029626 × GameDay) + (0.01074 × PriorYearSales × GameDay). GameDay is 1 on listed game days and 0 otherwise. Sales and PriorYearSales use netTotal and netTotal_364 aggregated by date. Use these displayed coefficients.\n\nPredict sales when PriorYearSales = 750 and GameDay = 0. Round to two decimals. These are supplied hypothetical inputs.",
+      "subject": "Interpretation",
+      "skill": "Regression prediction",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · prediction and interaction tasks",
+      "kind": "number",
+      "answer": 1509.11,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Substitute 750 and 0 into the displayed model: 1509.11."
+    },
+    {
+      "id": "R12",
+      "title": "Sales scenario · 750, game",
+      "prompt": "Fitted practice model from 312 observed days in the supplied workbook: Sales = 1044.415479 + (0.619594 × PriorYearSales) + (387.029626 × GameDay) + (0.01074 × PriorYearSales × GameDay). GameDay is 1 on listed game days and 0 otherwise. Sales and PriorYearSales use netTotal and netTotal_364 aggregated by date. Use these displayed coefficients.\n\nPredict sales when PriorYearSales = 750 and GameDay = 1. Round to two decimals. These are supplied hypothetical inputs.",
+      "subject": "Interpretation",
+      "skill": "Regression prediction",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · prediction and interaction tasks",
+      "kind": "number",
+      "answer": 1904.2,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Substitute 750 and 1 into the displayed model: 1904.20."
+    },
+    {
+      "id": "R13",
+      "title": "Sales scenario · 1250, no game",
+      "prompt": "Fitted practice model from 312 observed days in the supplied workbook: Sales = 1044.415479 + (0.619594 × PriorYearSales) + (387.029626 × GameDay) + (0.01074 × PriorYearSales × GameDay). GameDay is 1 on listed game days and 0 otherwise. Sales and PriorYearSales use netTotal and netTotal_364 aggregated by date. Use these displayed coefficients.\n\nPredict sales when PriorYearSales = 1250 and GameDay = 0. Round to two decimals. These are supplied hypothetical inputs.",
+      "subject": "Interpretation",
+      "skill": "Regression prediction",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · prediction and interaction tasks",
+      "kind": "number",
+      "answer": 1818.91,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Substitute 1250 and 0 into the displayed model: 1818.91."
+    },
+    {
+      "id": "R14",
+      "title": "Sales scenario · 1250, game",
+      "prompt": "Fitted practice model from 312 observed days in the supplied workbook: Sales = 1044.415479 + (0.619594 × PriorYearSales) + (387.029626 × GameDay) + (0.01074 × PriorYearSales × GameDay). GameDay is 1 on listed game days and 0 otherwise. Sales and PriorYearSales use netTotal and netTotal_364 aggregated by date. Use these displayed coefficients.\n\nPredict sales when PriorYearSales = 1250 and GameDay = 1. Round to two decimals. These are supplied hypothetical inputs.",
+      "subject": "Interpretation",
+      "skill": "Regression prediction",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · prediction and interaction tasks",
+      "kind": "number",
+      "answer": 2219.36,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Substitute 1250 and 1 into the displayed model: 2219.36."
+    },
+    {
+      "id": "R15",
+      "title": "Sales scenario · 1500, no game",
+      "prompt": "Fitted practice model from 312 observed days in the supplied workbook: Sales = 1044.415479 + (0.619594 × PriorYearSales) + (387.029626 × GameDay) + (0.01074 × PriorYearSales × GameDay). GameDay is 1 on listed game days and 0 otherwise. Sales and PriorYearSales use netTotal and netTotal_364 aggregated by date. Use these displayed coefficients.\n\nPredict sales when PriorYearSales = 1500 and GameDay = 0. Round to two decimals. These are supplied hypothetical inputs.",
+      "subject": "Interpretation",
+      "skill": "Regression prediction",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · prediction and interaction tasks",
+      "kind": "number",
+      "answer": 1973.81,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Substitute 1500 and 0 into the displayed model: 1973.81."
+    },
+    {
+      "id": "R16",
+      "title": "Sales scenario · 1500, game",
+      "prompt": "Fitted practice model from 312 observed days in the supplied workbook: Sales = 1044.415479 + (0.619594 × PriorYearSales) + (387.029626 × GameDay) + (0.01074 × PriorYearSales × GameDay). GameDay is 1 on listed game days and 0 otherwise. Sales and PriorYearSales use netTotal and netTotal_364 aggregated by date. Use these displayed coefficients.\n\nPredict sales when PriorYearSales = 1500 and GameDay = 1. Round to two decimals. These are supplied hypothetical inputs.",
+      "subject": "Interpretation",
+      "skill": "Regression prediction",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · prediction and interaction tasks",
+      "kind": "number",
+      "answer": 2376.95,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Substitute 1500 and 1 into the displayed model: 2376.95."
+    },
+    {
+      "id": "R17",
+      "title": "Temperature scenario · 40°F",
+      "prompt": "Simple fitted practice model from 312 matched days: Sales = 2725.292435 + (7.579688 × tmax). tmax is maximum daily temperature in the source weather data (°F); Sales is daily aggregate netTotal. Use the displayed coefficients.\n\nPredict sales when tmax = 40°F. Round to two decimals. This is a supplied-input practice scenario.",
+      "subject": "Interpretation",
+      "skill": "Regression prediction",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · temperature task",
+      "kind": "number",
+      "answer": 3028.48,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Substitute tmax = 40: 2725.292435 + 7.579688×40 = 3028.48."
+    },
+    {
+      "id": "R18",
+      "title": "Temperature scenario · 50°F",
+      "prompt": "Simple fitted practice model from 312 matched days: Sales = 2725.292435 + (7.579688 × tmax). tmax is maximum daily temperature in the source weather data (°F); Sales is daily aggregate netTotal. Use the displayed coefficients.\n\nPredict sales when tmax = 50°F. Round to two decimals. This is a supplied-input practice scenario.",
+      "subject": "Interpretation",
+      "skill": "Regression prediction",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · temperature task",
+      "kind": "number",
+      "answer": 3104.28,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Substitute tmax = 50: 2725.292435 + 7.579688×50 = 3104.28."
+    },
+    {
+      "id": "R19",
+      "title": "Temperature scenario · 70°F",
+      "prompt": "Simple fitted practice model from 312 matched days: Sales = 2725.292435 + (7.579688 × tmax). tmax is maximum daily temperature in the source weather data (°F); Sales is daily aggregate netTotal. Use the displayed coefficients.\n\nPredict sales when tmax = 70°F. Round to two decimals. This is a supplied-input practice scenario.",
+      "subject": "Interpretation",
+      "skill": "Regression prediction",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · temperature task",
+      "kind": "number",
+      "answer": 3255.87,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Substitute tmax = 70: 2725.292435 + 7.579688×70 = 3255.87."
+    },
+    {
+      "id": "R20",
+      "title": "Temperature scenario · 80°F",
+      "prompt": "Simple fitted practice model from 312 matched days: Sales = 2725.292435 + (7.579688 × tmax). tmax is maximum daily temperature in the source weather data (°F); Sales is daily aggregate netTotal. Use the displayed coefficients.\n\nPredict sales when tmax = 80°F. Round to two decimals. This is a supplied-input practice scenario.",
+      "subject": "Interpretation",
+      "skill": "Regression prediction",
+      "datasets": [
+        "restaurant"
+      ],
+      "source": "1. Excel part 4/Regression Assignment/Restaurant/Instructions.docx · temperature task",
+      "kind": "number",
+      "answer": 3331.67,
+      "hint": "Check the requested population, grouping level and units.",
+      "solution": "Substitute tmax = 80: 2725.292435 + 7.579688×80 = 3331.67."
+    }
+  ],
+  "exams": [
+    {
+      "id": "M01",
+      "title": "First principles",
+      "description": "Film permits, then your first SQL summaries.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X01",
+        "X03",
+        "X04",
+        "S01",
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "id": "M02",
+      "title": "Follow the right key",
+      "description": "Text extraction, journal lookups and Chinook.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X05",
+        "X06",
+        "X08",
+        "S05",
+        "S07",
+        "S08"
+      ]
+    },
+    {
+      "id": "M03",
+      "title": "The payroll review",
+      "description": "Find incomplete records and quantify their impact.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X09",
+        "X10",
+        "X11",
+        "S13",
+        "S14",
+        "S15"
+      ]
+    },
+    {
+      "id": "M04",
+      "title": "Connect the evidence",
+      "description": "Reconcile data and query movie relationships.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X07",
+        "X12",
+        "X02",
+        "S09",
+        "S11",
+        "S12"
+      ]
+    },
+    {
+      "id": "R01",
+      "title": "Game day at the restaurant",
+      "description": "Predictions, interactions and forecast confidence.",
+      "minutes": 5,
+      "subject": "Interpretation",
+      "questions": [
+        "R01",
+        "R02",
+        "R03",
+        "R04"
+      ]
+    },
+    {
+      "id": "R02",
+      "title": "Weather and sales",
+      "description": "Temperature predictions and responsible interpretation.",
+      "minutes": 5,
+      "subject": "Interpretation",
+      "questions": [
+        "R05",
+        "R06",
+        "R07",
+        "R08"
+      ]
+    },
+    {
+      "id": "M05",
+      "title": "Film permits + Songs · 1",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X23",
+        "X29",
+        "X19",
+        "S04",
+        "S20",
+        "S01"
+      ]
+    },
+    {
+      "id": "M06",
+      "title": "Film permits + Songs · 2",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X29",
+        "X24",
+        "X03",
+        "S03",
+        "S01",
+        "S20"
+      ]
+    },
+    {
+      "id": "M07",
+      "title": "Film permits + Songs · 3",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X25",
+        "X15",
+        "X03",
+        "S04",
+        "S20",
+        "S01"
+      ]
+    },
+    {
+      "id": "M08",
+      "title": "Film permits + Chinook · 1",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X26",
+        "X16",
+        "X29",
+        "S27",
+        "S25",
+        "S08"
+      ]
+    },
+    {
+      "id": "M09",
+      "title": "Film permits + Chinook · 2",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X13",
+        "X02",
+        "X14",
+        "S06",
+        "S21",
+        "S24"
+      ]
+    },
+    {
+      "id": "M10",
+      "title": "Film permits + Chinook · 3",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X22",
+        "X17",
+        "X15",
+        "S27",
+        "S24",
+        "S06"
+      ]
+    },
+    {
+      "id": "M11",
+      "title": "Film permits + Movies · 1",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X19",
+        "X15",
+        "X03",
+        "S09",
+        "S28",
+        "S10"
+      ]
+    },
+    {
+      "id": "M12",
+      "title": "Film permits + Movies · 2",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X23",
+        "X15",
+        "X19",
+        "S11",
+        "S31",
+        "S28"
+      ]
+    },
+    {
+      "id": "M13",
+      "title": "Film permits + Movies · 3",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X28",
+        "X13",
+        "X03",
+        "S09",
+        "S11",
+        "S31"
+      ]
+    },
+    {
+      "id": "M14",
+      "title": "Film permits + P-cards · 1",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X15",
+        "X30",
+        "X03",
+        "S34",
+        "S39",
+        "S16"
+      ]
+    },
+    {
+      "id": "M15",
+      "title": "Film permits + P-cards · 2",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X01",
+        "X26",
+        "X21",
+        "S36",
+        "S38",
+        "S40"
+      ]
+    },
+    {
+      "id": "M16",
+      "title": "Film permits + P-cards · 3",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X21",
+        "X28",
+        "X13",
+        "S38",
+        "S15",
+        "S34"
+      ]
+    },
+    {
+      "id": "M17",
+      "title": "Journal entries + Songs · 1",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X31",
+        "X07",
+        "X33",
+        "S17",
+        "S19",
+        "S04"
+      ]
+    },
+    {
+      "id": "M18",
+      "title": "Journal entries + Songs · 2",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X08",
+        "X31",
+        "X33",
+        "S20",
+        "S19",
+        "S04"
+      ]
+    },
+    {
+      "id": "M19",
+      "title": "Journal entries + Songs · 3",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X07",
+        "X34",
+        "X06",
+        "S01",
+        "S17",
+        "S02"
+      ]
+    },
+    {
+      "id": "M20",
+      "title": "Journal entries + Chinook · 1",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X06",
+        "X33",
+        "X32",
+        "S25",
+        "S07",
+        "S22"
+      ]
+    },
+    {
+      "id": "M21",
+      "title": "Journal entries + Chinook · 2",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X07",
+        "X06",
+        "X33",
+        "S27",
+        "S07",
+        "S24"
+      ]
+    },
+    {
+      "id": "M22",
+      "title": "Journal entries + Chinook · 3",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X32",
+        "X31",
+        "X34",
+        "S07",
+        "S21",
+        "S05"
+      ]
+    },
+    {
+      "id": "M23",
+      "title": "Journal entries + Movies · 1",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X34",
+        "X33",
+        "X08",
+        "S28",
+        "S11",
+        "S29"
+      ]
+    },
+    {
+      "id": "M24",
+      "title": "Journal entries + Movies · 2",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X31",
+        "X33",
+        "X34",
+        "S12",
+        "S31",
+        "S30"
+      ]
+    },
+    {
+      "id": "M25",
+      "title": "Journal entries + Movies · 3",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X08",
+        "X07",
+        "X31",
+        "S10",
+        "S11",
+        "S12"
+      ]
+    },
+    {
+      "id": "M26",
+      "title": "Journal entries + P-cards · 1",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X31",
+        "X06",
+        "X33",
+        "S34",
+        "S36",
+        "S40"
+      ]
+    },
+    {
+      "id": "M27",
+      "title": "Journal entries + P-cards · 2",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X32",
+        "X31",
+        "X06",
+        "S16",
+        "S35",
+        "S15"
+      ]
+    },
+    {
+      "id": "M28",
+      "title": "Journal entries + P-cards · 3",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X32",
+        "X06",
+        "X31",
+        "S32",
+        "S35",
+        "S38"
+      ]
+    },
+    {
+      "id": "M29",
+      "title": "2016 payroll + Songs · 1",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X39",
+        "X35",
+        "X09",
+        "S19",
+        "S03",
+        "S01"
+      ]
+    },
+    {
+      "id": "M30",
+      "title": "2016 payroll + Songs · 2",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X36",
+        "X35",
+        "X39",
+        "S20",
+        "S19",
+        "S17"
+      ]
+    },
+    {
+      "id": "M31",
+      "title": "2016 payroll + Songs · 3",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X11",
+        "X09",
+        "X10",
+        "S01",
+        "S02",
+        "S19"
+      ]
+    },
+    {
+      "id": "M32",
+      "title": "2016 payroll + Chinook · 1",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X37",
+        "X11",
+        "X36",
+        "S08",
+        "S05",
+        "S25"
+      ]
+    },
+    {
+      "id": "M33",
+      "title": "2016 payroll + Chinook · 2",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X37",
+        "X39",
+        "X35",
+        "S06",
+        "S07",
+        "S25"
+      ]
+    },
+    {
+      "id": "M34",
+      "title": "2016 payroll + Chinook · 3",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X36",
+        "X09",
+        "X10",
+        "S21",
+        "S24",
+        "S07"
+      ]
+    },
+    {
+      "id": "M35",
+      "title": "2016 payroll + Movies · 1",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X37",
+        "X39",
+        "X35",
+        "S29",
+        "S09",
+        "S10"
+      ]
+    },
+    {
+      "id": "M36",
+      "title": "2016 payroll + Movies · 2",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X39",
+        "X35",
+        "X37",
+        "S12",
+        "S09",
+        "S31"
+      ]
+    },
+    {
+      "id": "M37",
+      "title": "2016 payroll + Movies · 3",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X36",
+        "X38",
+        "X35",
+        "S29",
+        "S31",
+        "S12"
+      ]
+    },
+    {
+      "id": "M38",
+      "title": "2016 payroll + P-cards · 1",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X09",
+        "X35",
+        "X11",
+        "S40",
+        "S36",
+        "S15"
+      ]
+    },
+    {
+      "id": "M39",
+      "title": "2016 payroll + P-cards · 2",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X38",
+        "X35",
+        "X10",
+        "S15",
+        "S14",
+        "S39"
+      ]
+    },
+    {
+      "id": "M40",
+      "title": "2016 payroll + P-cards · 3",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X10",
+        "X09",
+        "X38",
+        "S40",
+        "S36",
+        "S16"
+      ]
+    },
+    {
+      "id": "M41",
+      "title": "2015 payroll + Songs · 1",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X41",
+        "X42",
+        "X43",
+        "S18",
+        "S19",
+        "S01"
+      ]
+    },
+    {
+      "id": "M42",
+      "title": "2015 payroll + Songs · 2",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X40",
+        "X42",
+        "X41",
+        "S01",
+        "S03",
+        "S20"
+      ]
+    },
+    {
+      "id": "M43",
+      "title": "2015 payroll + Songs · 3",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X41",
+        "X40",
+        "X43",
+        "S01",
+        "S18",
+        "S19"
+      ]
+    },
+    {
+      "id": "M44",
+      "title": "2015 payroll + Chinook · 1",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X42",
+        "X43",
+        "X40",
+        "S27",
+        "S08",
+        "S26"
+      ]
+    },
+    {
+      "id": "M45",
+      "title": "2015 payroll + Chinook · 2",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X42",
+        "X40",
+        "X41",
+        "S21",
+        "S06",
+        "S23"
+      ]
+    },
+    {
+      "id": "M46",
+      "title": "2015 payroll + Chinook · 3",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X43",
+        "X40",
+        "X41",
+        "S26",
+        "S07",
+        "S05"
+      ]
+    },
+    {
+      "id": "M47",
+      "title": "2015 payroll + Movies · 1",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X40",
+        "X41",
+        "X43",
+        "S28",
+        "S29",
+        "S09"
+      ]
+    },
+    {
+      "id": "M48",
+      "title": "2015 payroll + Movies · 2",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X42",
+        "X43",
+        "X41",
+        "S30",
+        "S28",
+        "S12"
+      ]
+    },
+    {
+      "id": "M49",
+      "title": "2015 payroll + Movies · 3",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X41",
+        "X42",
+        "X40",
+        "S29",
+        "S11",
+        "S28"
+      ]
+    },
+    {
+      "id": "M50",
+      "title": "2015 payroll + P-cards · 1",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X41",
+        "X40",
+        "X42",
+        "S33",
+        "S32",
+        "S38"
+      ]
+    },
+    {
+      "id": "M51",
+      "title": "2015 payroll + P-cards · 2",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X42",
+        "X40",
+        "X43",
+        "S40",
+        "S15",
+        "S38"
+      ]
+    },
+    {
+      "id": "M52",
+      "title": "2015 payroll + P-cards · 3",
+      "description": "Three Excel tasks and three SQL tasks. Download both files before starting.",
+      "minutes": 8,
+      "subject": "Manipulation",
+      "questions": [
+        "X40",
+        "X41",
+        "X42",
+        "S14",
+        "S36",
+        "S32"
+      ]
+    },
+    {
+      "id": "R03",
+      "title": "Restaurant interactions · 1",
+      "description": "A new prediction scenario, conditional effects and forecast reasoning.",
+      "minutes": 5,
+      "subject": "Interpretation",
+      "questions": [
+        "R09",
+        "R02",
+        "R03",
+        "R04"
+      ]
+    },
+    {
+      "id": "R04",
+      "title": "Restaurant interactions · 2",
+      "description": "A new prediction scenario, conditional effects and forecast reasoning.",
+      "minutes": 5,
+      "subject": "Interpretation",
+      "questions": [
+        "R10",
+        "R02",
+        "R03",
+        "R04"
+      ]
+    },
+    {
+      "id": "R05",
+      "title": "Restaurant interactions · 3",
+      "description": "A new prediction scenario, conditional effects and forecast reasoning.",
+      "minutes": 5,
+      "subject": "Interpretation",
+      "questions": [
+        "R11",
+        "R02",
+        "R03",
+        "R04"
+      ]
+    },
+    {
+      "id": "R06",
+      "title": "Restaurant interactions · 4",
+      "description": "A new prediction scenario, conditional effects and forecast reasoning.",
+      "minutes": 5,
+      "subject": "Interpretation",
+      "questions": [
+        "R12",
+        "R02",
+        "R03",
+        "R04"
+      ]
+    },
+    {
+      "id": "R07",
+      "title": "Restaurant interactions · 5",
+      "description": "A new prediction scenario, conditional effects and forecast reasoning.",
+      "minutes": 5,
+      "subject": "Interpretation",
+      "questions": [
+        "R13",
+        "R02",
+        "R03",
+        "R04"
+      ]
+    },
+    {
+      "id": "R08",
+      "title": "Restaurant interactions · 6",
+      "description": "A new prediction scenario, conditional effects and forecast reasoning.",
+      "minutes": 5,
+      "subject": "Interpretation",
+      "questions": [
+        "R14",
+        "R02",
+        "R03",
+        "R04"
+      ]
+    },
+    {
+      "id": "R09",
+      "title": "Restaurant interactions · 7",
+      "description": "A new prediction scenario, conditional effects and forecast reasoning.",
+      "minutes": 5,
+      "subject": "Interpretation",
+      "questions": [
+        "R15",
+        "R02",
+        "R03",
+        "R04"
+      ]
+    },
+    {
+      "id": "R10",
+      "title": "Restaurant interactions · 8",
+      "description": "A new prediction scenario, conditional effects and forecast reasoning.",
+      "minutes": 5,
+      "subject": "Interpretation",
+      "questions": [
+        "R16",
+        "R02",
+        "R03",
+        "R04"
+      ]
+    },
+    {
+      "id": "R11",
+      "title": "Temperature interpretation · 1",
+      "description": "A new temperature scenario, slope interpretation and data preparation.",
+      "minutes": 5,
+      "subject": "Interpretation",
+      "questions": [
+        "R17",
+        "R06",
+        "R07",
+        "R08"
+      ]
+    },
+    {
+      "id": "R12",
+      "title": "Temperature interpretation · 2",
+      "description": "A new temperature scenario, slope interpretation and data preparation.",
+      "minutes": 5,
+      "subject": "Interpretation",
+      "questions": [
+        "R18",
+        "R06",
+        "R07",
+        "R08"
+      ]
+    },
+    {
+      "id": "R13",
+      "title": "Temperature interpretation · 3",
+      "description": "A new temperature scenario, slope interpretation and data preparation.",
+      "minutes": 5,
+      "subject": "Interpretation",
+      "questions": [
+        "R19",
+        "R06",
+        "R07",
+        "R08"
+      ]
+    },
+    {
+      "id": "R14",
+      "title": "Temperature interpretation · 4",
+      "description": "A new temperature scenario, slope interpretation and data preparation.",
+      "minutes": 5,
+      "subject": "Interpretation",
+      "questions": [
+        "R20",
+        "R06",
+        "R07",
+        "R08"
+      ]
+    }
+  ]
+}
